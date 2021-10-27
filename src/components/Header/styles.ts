@@ -1,12 +1,35 @@
-import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import styled from 'styled-components';
 
-export const Container = styled(motion.header)`
-    width: 100%;
-    height: 150px;
-    background: rgba(0,0,0,0.1);
+export const Container = styled(motion.div)`
+    width: 80%;
+    height: 100px;
+    border-radius: 4px;
+    background:  rgba(0,0,0, 0.15);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0,0,0, 0.15) 1.95px 1.95px 2.6px;
 
-    position: fixed;
-    top: 0;
-    z-index: 99999;
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    a { 
+    color: #ffcc33;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    
+    }
+
+    a:hover {
+        color: #fff;
+        cursor: pointer;
+    }
 `;

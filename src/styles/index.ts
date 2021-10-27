@@ -1,67 +1,52 @@
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
+
 
 export const Main = styled.main`
-    .first{
-        background: red;
-        overflow: hidden;
-    }
-    .offset{
-        width: 100%;
-        height: 100%;
-    }
-    .a{
-        background: #f5f1ea;
-        height: 100%;
-        display: flex;
-        align-items: flex-end;
+    
+    height: 100px;
+    margin-top: 20px;
+    /* 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    */
+`;
 
-        .left-side{
-            width: 50%;
-            height: 100%;
-            background: #7dbb91;
-        }
+export const Box = styled.div`
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    box-shadow: rgba(0,0,0, 0.15) 1.95px 1.95px 2.6px;    
 
-        .right-side{
-            width: 50%;
-            height: 100%;
+    h1 {
+        color: #ffcc33;
+    }
 
-            .right-image{
-                background: #7dbb91;
-                width: 100%;
-                height: 100%;
-            }
-        }
-    }
-    .b{
-        background: #582534;
-        width: 100%;
-        height: 100%;
-    }
-    .c{
-        background: #0a7397;
-        width: 100%;
-        height: 100%;
-    }
-    .second{
-        background: green;
-    }
-    .third{
-        background: yellow;
-    }
-    .fourth{
-        background: blue;
+    p{
+        font-weight: 500;
     }
 `;
 
-export const Section = styled.div`
-    position: relative;
+export const Inverse = styled.main`
+    display: flex;
+    flex-direction: row-reverse;
 `;
 
-export const Sticky = styled(motion.div)`
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
+export const Footer = styled.main`
+    display: flex;
+    height: 500px;
+    margin-top: 40px;
 `;
+
+
+
+
+
+

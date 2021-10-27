@@ -1,16 +1,25 @@
 import React from 'react';
-import { useViewportScroll,useTransform } from 'framer-motion';
 
 import { Container } from './styles';
 
+import logo from '../../assets/img/logo-horizontal-yellow.png';
 
-const Header:React.FC = () => {
-  const {scrollYProgress} = useViewportScroll()
-
-  const headerY = useTransform(scrollYProgress, [0.188,0.198],['0%','-100%'])
+const Header: React.FC = () => {
 
   return (
-      <Container style={{y: headerY}}/>
+    <Container > 
+
+      <div  className="menu">
+        <div className="logo">
+          <img src={logo} alt="Planet bee logo"/>
+        </div>
+        <a href="#home">RoadMap</a>
+        <a href="#home">NFTs </a>
+        <a href="#home">Whitepaper</a>
+      </div>
+      
+    </Container>
+     
   );
 };
 

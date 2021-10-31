@@ -28,8 +28,19 @@ export const Container = styled(motion.div)`
     
     }
 
-    a:hover {
+    /* a:hover {
         color: #fff;
         cursor: pointer;
+    } */
+
+    .whitepaper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffcc33;
+        border: solid 2px #ffcc33;
+        border-radius: 4px;
+        height: 40px;
+        width: 150px;
     }
 `;

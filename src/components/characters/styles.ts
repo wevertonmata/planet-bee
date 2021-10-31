@@ -1,18 +1,25 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    width: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
+    justify-content: center;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 
-    h1{
+    .details{
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
         align-items: center;
-        padding-bottom: 10px;
-        color: #ffcc33;
+        border-radius: 20px;
+        background-color: rgba(0,0,0, 0.20);
+        max-height: 450px;
+        margin-right: 10%;
+        width: 30%;
+        box-shadow:rgba(0,0,0, 0.20) 1.95px 1.95px 2.6px; 
     }
 
     p{
@@ -23,22 +30,17 @@ export const Container = styled.div`
         color: #fff;
         padding-bottom: 10px;
     }
+
+    h1{
+        align-items: center;
+        padding-bottom: 10px;
+        color: #ffcc33;
+    }
+
+    li{
+        color: #fff;
+        margin-bottom: 20px;
+        list-style-type: none;
+    }
     
-    .about{
-        flex: 1;
-        margin-left:50px;
-        justify-content: center;
-    }
-
-    .art{
-        flex: 1;
-        justify-content: center;
-    }
-
-    .art img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 400px;
-    }
 `;

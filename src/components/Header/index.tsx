@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         </div>
         <a href="#home">RoadMap</a>
         <a href="#home">NFTs </a>
-        <a href="#home">Whitepaper</a>
+        <a href="#home" className="whitepaper">Whitepaper</a>
       </div>
       
     </Container>

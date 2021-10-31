@@ -1,23 +1,26 @@
 import React from 'react';
-import Card from '../card';
 
 import { Container } from './styles';
 
-const Characters: React.FC = () => {
+import nft from '../../assets/img/ABELHA-TESTE.png'
 
+
+export default function  card(): JSX.Element {
   return (
     <Container> 
-       <Card title="PHASE 1" 
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
-
-       <Card title="PHASE 2"  
-       text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
-
-       <Card title="PHASE 3"  
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
-
+       <div className="details">
+          <h1>CLASS</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <ul>
+             <li>Lorem ipsum</li>
+             <li>Lorem ipsum</li>
+             <li>Lorem ipsum</li>
+             <li>Lorem ipsum</li>
+          </ul>
+       </div>
+       <div className="art">
+          <img src={nft} alt="Planet bee nft"/>
+       </div>
     </Container> 
   );
 };
-
-export default Characters;

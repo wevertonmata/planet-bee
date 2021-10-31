@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import px2vw from "../../utils/px2vw";
+
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
@@ -11,22 +13,22 @@ export const Container = styled.div`
 
     h1{
         align-items: center;
-        padding-bottom: 10px;
+        padding-bottom: ${px2vw(10)};
         color: #ffcc33;
     }
 
     p{
         text-align:justify;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: ${px2vw(14)};
+        line-height: ${px2vw(26)};
         text-align: justify;
         color: #fff;
-        padding-bottom: 10px;
+        padding-bottom: ${px2vw(10)};
     }
     
     .about{
         flex: 1;
-        margin-left:50px;
+        margin-left:${px2vw(50)};
         justify-content: center;
     }
 
@@ -39,6 +41,6 @@ export const Container = styled.div`
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 400px;
+        width: ${px2vw(300)};
     }
 `;

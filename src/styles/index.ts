@@ -1,22 +1,19 @@
 import styled from 'styled-components';
 
+import px2vw from "../utils/px2vw";
+
+
 
 export const Main = styled.main`
-    
-    height: 100px;
-    margin-top: 20px;
-    /* 
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto; 
-    */
+    height: ${px2vw(100)};
+    margin-top:  ${px2vw(20)};
 `;
 
 export const Box = styled.div`
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: ${px2vw(20)};
     background-color: rgba(0,0,0, 0.15);
     border-radius: 4px;
     display: flex;
@@ -41,8 +38,8 @@ export const Inverse = styled.main`
 
 export const Footer = styled.main`
     display: flex;
-    height: 500px;
-    margin-top: 40px;
+    height:${px2vw(500)};
+    margin-top: ${px2vw(40)};
 `;
 
 

@@ -18,7 +18,7 @@ export const Contents = styled.div`
     }
 
     .bg img{
-        width: 100%;
+        width: 100vw;
         overflow: hidden;
         position: absolute;
         top: 0;
@@ -36,14 +36,14 @@ export const Contents = styled.div`
         align-items: center;
         padding-top: ${px2vw(30)};
         padding-bottom: ${px2vw(30)};
-        font-size: ${px2vw(60)};
+        font-size: ${px2vw(80)};
         color:#fff;
     }
 
     p{
         text-align:justify;
-        font-size: ${px2vw(28)};
-        line-height: ${px2vw(35)};
+        font-size: ${px2vw(32)};
+        line-height: ${px2vw(45)};
         text-align: justify;
         color: #fff;
         padding-bottom: ${px2vw(10)};
@@ -74,14 +74,32 @@ export const Contents = styled.div`
         margin-left: auto;
     }
 
-    .column-img img{
-        width: 80%;
-        height: 45%
+
+    .rule-img {
+        width:  ${px2vw(500)};
     }
 
-    .column-img .normal img{
-        width: 70%;
-        height: 45%
+    .land-img{
+        width:  ${px2vw(500)};
+    }
+
+    .save-img {
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        margin-top: ${px2vw(-270)};  
+    }
+
+    .save-text{
+        margin-bottom: ${px2vw(50)}; 
+        width: 50%;
+        margin-top: ${px2vw(20)}; 
+    }
+
+    .save-column-img{
+        width: 35%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .item{
@@ -108,7 +126,7 @@ export const Contents = styled.div`
         margin-bottom: ${px2vw(20)};
     }
     
-    .border-nft img{
+    .border-nft {
         /* border: 5px solid #ffcc33;
         border-radius: 20px; */
         display: flex;
@@ -116,6 +134,20 @@ export const Contents = styled.div`
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
     }
+
+    .nft-central{
+        width: 85%;
+    }
+
+    .nft-side{
+        width: 70%;
+        margin-top:  ${px2vw(-50)}; 
+    }
+
+    .nft-outside{
+        width: 60%;
+        margin-top:  ${px2vw(-120)}; 
+    }
+
 `;

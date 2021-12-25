@@ -11,8 +11,10 @@ import troca from '../../assets/img/TROCA.png';
 import svw from '../../assets/img/STW.png';
 import lands from '../../assets/img/lands.png';
 import tokenomics from '../../assets/img/TOKENOMICS.png';
-//NFT
-import normal from '../../assets/img/nfts/normal.png';
+import bees from '../../assets/img/bees.png';
+
+//import normal from '../../assets/img/nfts/normal.png';
+import princess from '../../assets/img/nfts/princess.png';
 import gladiator from '../../assets/img/nfts/gladiator.png';
 import astronaut from '../../assets/img/nfts/astronaut.png';
 import witch from '../../assets/img/nfts/witch.png';
@@ -32,97 +34,115 @@ const home: React.FC = () => {
          <img src={logo} alt="Planet bee logo"/>
       </div>
       
-      <div className="item">
+      <section className="item">
          <h1>PLAY TO EARN</h1>
          <div className="area">  
             <div className="column-text">
              <p>
-                Aliquam erat volutpat. In pellentesque sapien eget vulputate venenatis.
-                Suspendisse vulputate lacus sed pulvinar porttitor. Aliquam erat volutpat. 
-                Curabitur bibendum nisl magna, eu posuere nunc sodales vel. 
+             Assemble your squad of bees, manage 
+             new explorations, discover 
+             new scenarios, collect resources of varied 
+             rarities and get rewards in PBEE.
              </p>
             </div>
             <div className="column-img">
-             <img src={troca} alt="Planet bee logo"/>
+             <img className='rule-img' src={troca} alt="Planet bee logo"/>
             </div>
          </div>
-      </div>
+      </section>
       <hr/> 
 
-      <div className="item">
+      <section className="item">
          <h1>SAVE THE WORLD</h1>
          <div className="area">  
-            <div className="column-img">
-             <img src={svw} alt="Planet bee logo"/>
+            <div className="column-img  save-column-img">
+               <img className="rule-img save-img" src={svw} alt="Planet bee logo"/>
             </div>
-            <div className="column-text">
+            <div className="column-text save-text">
              <p>
-                Aliquam erat volutpat. In pellentesque sapien eget vulputate venenatis.
-                Suspendisse vulputate lacus sed pulvinar porttitor. Aliquam erat volutpat. 
-                Curabitur bibendum nisl magna, eu posuere nunc sodales vel. 
+               <br/>
+               We are the first decentralized currency with a future physical backing in a beekeeping project.
+               <br/><br/>
+               Bees are extremely important to our lives and the environment, but they are dying because of human beings' daily actions with the planet.
+               <br/><br/>
+               Join the cause and help reverse what we destroyed for so long. 
              </p>
             </div>
          </div>
-      </div>
+      </section>
       <hr/> 
 
-      <div className="item">
+      <section className="item">
          <h1>CHARACTERS</h1>
          <div className="area">  
             <div className="column-text">
              <p>
-                Aliquam erat volutpat. In pellentesque sapien eget vulputate venenatis.
-                Suspendisse vulputate lacus sed pulvinar porttitor. Aliquam erat volutpat. 
-                Curabitur bibendum nisl magna, eu posuere nunc sodales vel. 
+               <br/>
+               Acquire new NFT characters as a reward 
+               for rare hives in-game or in our home 
+               market.<br/>
+               Grow your exploration fleet and help 
+               revitalize the world while increasing 
+               your expedition earnings. 
              </p>
             </div>
             <div className="column-img normal">
-             <img src={normal} alt="Planet bee logo"/>
+             <img className='rule-img' src={bees} alt="Planet bee logo"/>
             </div>
          </div>
          <div className="nfts-imgs">
             <div className="border-nft">
-               <img src={gladiator} alt="Planet bee logo"/>
+               <img className='nft-outside' src={princess} alt="Planet bee logo"/>
             </div>
+
             <div className="border-nft">
-               <img src={astronaut} alt="Planet bee logo"/>
+               <img className='nft-side' src={gladiator} alt="Planet bee logo"/>
             </div>
+
             <div className="border-nft">
-               <img src={witch} alt="Planet bee logo"/>
+               <img className='nft-central' src={astronaut} alt="Planet bee logo"/>
             </div>
+
             <div className="border-nft">
-               <img src={zumbie} alt="Planet bee logo"/>
+               <img className='nft-side' src={zumbie} alt="Planet bee logo"/>
             </div>
+
+            <div className="border-nft">
+               <img className='nft-outside' src={witch} alt="Planet bee logo"/>
+            </div>
+            {/* <div className="border-nft">
+               <img src={normal} alt="Planet bee logo"/>
+            </div> */}
          </div>
-      </div>
+      </section>
       <hr/> 
 
-      <div className="item">
+      <section className="item">
          <h1>LANDS</h1>
          <div className="area">  
             <div className="column-img">
-             <img src={lands} alt="Planet bee logo"/>
+             <img className='rule-img land-img' src={lands} alt="Planet bee logo"/>
             </div>
             <div className="column-text">
              <p>
-                Aliquam erat volutpat. In pellentesque sapien eget vulputate venenatis.
-                Suspendisse vulputate lacus sed pulvinar porttitor. Aliquam erat volutpat. 
-                Curabitur bibendum nisl magna, eu posuere nunc sodales vel. 
+               Get your own land and put the bees 
+               to rest with much more comfort and 
+               speed, increasing work productivity. 
              </p>
             </div>
          </div>
-      </div>
+      </section>
       <hr/> 
 
-      <div className="item">
+      <section className="item">
          <h1>ROADMAP</h1>
          <div className="area">  
             
          </div>
-      </div>
+      </section>
       <hr/> 
 
-      <div className="item">
+      <section className="item">
          <h1>TOKENOMIC</h1>
          <div className="area">  
             <div className="column-text">
@@ -133,10 +153,10 @@ const home: React.FC = () => {
              </p>
             </div>
             <div className="column-img">
-             <img src={tokenomics} alt="Planet bee logo"/>
+             <img className='rule-img' src={tokenomics} alt="Planet bee logo"/>
             </div>
          </div>
-      </div>
+      </section>
       <hr/>
 
       <Footer/>

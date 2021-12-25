@@ -7,13 +7,12 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: ${px2vw(10)};
+    margin-bottom: ${px2vw(20)};
     margin-top: ${px2vw(20)};
     width: 90%;
 
     .logoFooter img{
-        width: ${px2vw(60)};
-        height: ${px2vw(50)};
+        width: 20%;
         margin-top: ${px2vw(10)};
     }
 
@@ -29,12 +28,12 @@ export const Container = styled.div`
     }
 
     .Discord svg{
-        width: ${px2vw(50)};
-        height: ${px2vw(50)};
+        width: ${px2vw(60)};
+        height: ${px2vw(60)};
         margin-left:  ${px2vw(25)};
     }
     .Twitter svg{
-        width: ${px2vw(50)};
-        height: ${px2vw(50)};
+        width: ${px2vw(60)};
+        height: ${px2vw(60)};
     }
 `;

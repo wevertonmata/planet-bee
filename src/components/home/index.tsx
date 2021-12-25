@@ -5,7 +5,7 @@ import Footer from '../Footer';
 
 import {Contents} from './styles';
 
-import bg from '../../assets/img/BG.png';
+import bg from '../../assets/img/background.png';
 import logo from '../../assets/img/logof.png';
 import troca from '../../assets/img/TROCA.png';
 import svw from '../../assets/img/STW.png';

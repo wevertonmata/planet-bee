@@ -134,28 +134,32 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="item">
+      {/* <section className="item">
          <h1>ROADMAP</h1>
          <div className="area">  
             
          </div>
       </section>
-      <hr/> 
+      <hr/>  */}
 
       <section className="item">
          <h1>TOKENOMIC</h1>
-         <div className="area">  
+         <div className="area  tokenomics-area">  
             <div className="column-text">
-             <p>
-                Aliquam erat volutpat. In pellentesque sapien eget vulputate venenatis.
-                Suspendisse vulputate lacus sed pulvinar porttitor. Aliquam erat volutpat. 
-                Curabitur bibendum nisl magna, eu posuere nunc sodales vel. 
-             </p>
+               <ul className='tokenomics-lista'>
+                  <li className='tokenomics-item tokenomics-item--play'>50% - Play to earn</li>
+                  <li className='tokenomics-item tokenomics-item--team'>10% - Team</li>
+                  <li className='tokenomics-item tokenomics-item--liquidity'>20% - Liquidity</li>
+                  <li className='tokenomics-item tokenomics-item--private'>8% - Private sale</li>
+                  <li className='tokenomics-item tokenomics-item--public'>7% - Public sale</li>
+                  <li className='tokenomics-item tokenomics-item--marketing'>5% - Marketing</li>
+               </ul>
             </div>
             <div className="column-img">
-             <img className='rule-img' src={tokenomics} alt="Planet bee logo"/>
+               <img className='rule-img' src={tokenomics} alt="Planet bee logo"/>
             </div>
          </div>
+         <h1 className='supply'>Total Supply: 100.000.000</h1>
       </section>
       <hr/>
 

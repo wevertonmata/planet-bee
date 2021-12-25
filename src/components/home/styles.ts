@@ -2,6 +2,13 @@ import styled from 'styled-components';
 
 import px2vw from "../../utils/px2vw";
 
+import first from '../../assets/img/bullet/f1d200.png';
+import six from '../../assets/img/bullet/9eb81e.png';
+import second from '../../assets/img/bullet/066b65.png';
+import third from '../../assets/img/bullet/00503a.png';
+import four from '../../assets/img/bullet/23753e.png';
+import five from '../../assets/img/bullet/599835.png';
+
 export const Contents = styled.div`
     display: flex;
     flex-direction: column;
@@ -148,6 +155,73 @@ export const Contents = styled.div`
     .nft-outside{
         width: 60%;
         margin-top:  ${px2vw(-120)}; 
+    }
+
+    .tokenomics-text{
+        float: left;
+        width: 50%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right:${px2vw(200)};
+    }
+
+    .tokenomics-lista {
+    text-align:justify;
+    font-size: ${px2vw(32)};
+    line-height: ${px2vw(60)};
+    text-align: justify;
+    color: #fff;
+    text-shadow: #ddd 1px 0 1px;
+    padding-bottom: ${px2vw(10)};
+    list-style: none;
+}
+
+    .tokenomics-item {
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        
+        padding-left: 1em; 
+        text-indent: 1em;
+        line-height: ${px2vw(75)};
+        font-weight: 200;
+    }
+
+    .tokenomics-item--play{
+        background-position: top 20rem left 2.5rem ;
+        background-image: url(${first});
+
+    }
+
+
+    .tokenomics-item--team{
+        background-position: top 20rem left 2.5rem ;
+        background-image: url(${second});
+    }
+
+    .tokenomics-item--liquidity{
+        background-position: top 20rem left 2.5rem ;
+        background-image: url(${third});
+    }
+
+
+    .tokenomics-item--private{
+        background-position: top 20rem left 2.5rem ;
+        background-image: url(${four}); 
+    }
+
+    .tokenomics-item--public{
+        background-position: top 20rem left 2.5rem ;
+        background-image: url(${five}); 
+    }
+
+
+    .tokenomics-item--marketing{
+        background-position: top 20rem left 2.5rem ;
+        background-image: url(${six});
+    }
+
+    .supply{
+        font-size: ${px2vw(48)};
     }
 
 `;

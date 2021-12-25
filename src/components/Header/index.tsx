@@ -12,11 +12,11 @@ const Header: React.FC = () => {
           <div className="logo">
             <img src={logo} alt="Planet bee logo"/>
           </div>
-          <a href="#home">HOME</a>
-          <a href="#home">BUY TOKEN</a>
-          <a href="#home">WHITEPAPER</a>
-          <a href="#home">FAQ</a>
-          <a href="#home" className="play">PLAY NOW</a>
+          <a href="#home"><h3>HOME</h3></a>
+          <a href="#home"><h3>PRE SALE</h3></a>
+          <a href="#home"><h3>WHITEPAPER</h3></a>
+          <a href="#home"><h3>ROADMAP</h3></a>
+          <a href="#home" className="play"><h3>PLAY NOW</h3></a>
         </div>
       </Container>
     </>     

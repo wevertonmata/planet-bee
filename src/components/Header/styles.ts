@@ -61,6 +61,7 @@ export const Container = styled.div`
         align-items: center;
         padding-top: ${px2vw(30)};
         font-size:  ${px2vw(38)};
+        font-weight: 900;
         color: #000;
         background-color: #ffcc33;
         border: solid  ${px2vw(2)} #ffcc33;

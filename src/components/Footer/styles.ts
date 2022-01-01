@@ -28,12 +28,12 @@ export const Container = styled.div`
     }
 
     .Discord svg{
-        width: ${px2vw(60)};
-        height: ${px2vw(60)};
+        width: ${px2vw(40)};
+        height: ${px2vw(40)};
         margin-left:  ${px2vw(25)};
     }
     .Twitter svg{
-        width: ${px2vw(60)};
-        height: ${px2vw(60)};
+        width: ${px2vw(40)};
+        height: ${px2vw(40)};
     }
 `;

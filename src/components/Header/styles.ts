@@ -11,17 +11,17 @@ export const Container = styled.div`
     .menu {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        //margin-bottom: ${px2vw(40)};
-        height: ${px2vw(90)};
-        border-bottom: 3px solid #ffcc33;
+        flex-wrap: nowrap;
+        height: ${px2vw(75)};
+        border-bottom: 3px solid #acacacaa;
+        
     }
 
 
     .logo img{
-        width: ${px2vw(100)};
+        width: ${px2vw(85)};
+        
     }
 
     
@@ -29,27 +29,26 @@ export const Container = styled.div`
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
+        margin: 0 75px;
         z-index: 999;
-        left: 0;
-        margin-left:  ${px2vw(80)};;
-        position: absolute;
+        left: 0;        
     }
 
     //rgba(255,255,255,0.15);
 
     a { 
     color: #fff;
-    width: 15%;
+    width: 14%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-size:  ${px2vw(26)};
+    font-size:  ${px2vw(24)};
     font-weight: bold;
     margin-bottom: 0%;
-    border-left: 3px solid #ffcc33;
+    border-left: 3px solid #acacacaa;
     }
 
     a:hover{
@@ -61,25 +60,24 @@ export const Container = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: ${px2vw(30)};
-        font-size:  ${px2vw(38)};
-        font-weight: 900;
+        padding-top: ${px2vw(20)};
+        font-size:  ${px2vw(30)};
         color: #000;
         background-color: #ffcc33;
         border: solid  ${px2vw(2)} #ffcc33;
         border-radius:  ${px2vw(1)};
-        height:  ${px2vw(150)};
-        width:  ${px2vw(250)};
+        height:  ${px2vw(110)};
+        width:  ${px2vw(200)};
         z-index: 999;
         right: 0;
-        margin-right:  ${px2vw(40)};
+        margin-right:  ${px2vw(45)};
         position: absolute;
         
     }
 
-
     .play:hover{
-        color: #fff;
+        transition-delay: 0.1s;
+        color: #ffffffcc;
         background-color: #ffcc33;
     }
 `;

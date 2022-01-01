@@ -2,13 +2,6 @@ import styled from 'styled-components';
 
 import px2vw from "../../utils/px2vw";
 
-import first from '../../assets/img/bullet/f1d200.png';
-import six from '../../assets/img/bullet/9eb81e.png';
-import second from '../../assets/img/bullet/066b65.png';
-import third from '../../assets/img/bullet/00503a.png';
-import four from '../../assets/img/bullet/23753e.png';
-import five from '../../assets/img/bullet/599835.png';
-
 export const Contents = styled.div`
     display: flex;
     flex-direction: column;
@@ -45,15 +38,17 @@ export const Contents = styled.div`
         padding-bottom: ${px2vw(10)};
         font-size: ${px2vw(55)};
         color:#fff;
+        font-family: var(--montserrat);
     }
 
     p{
         text-align:justify;
-        font-size: ${px2vw(24)};
+        font-size: ${px2vw(22)};
         line-height: ${px2vw(45)};
         text-align: justify;
         color: #fff;
         padding-bottom: ${px2vw(10)};
+        font-weight: 300;
     }
 
     .area{
@@ -92,7 +87,7 @@ export const Contents = styled.div`
         left: 0;
         position: absolute;
         z-index: -1;
-        margin-top: ${px2vw(-200)};  
+        margin-top: ${px2vw(-180)};  
     }
 
     .save-text{
@@ -117,6 +112,10 @@ export const Contents = styled.div`
     hr{
         width: 98%;
         border: 1px solid rgba(255,255,255, 0.25);
+    }
+
+    .normal{
+        margin-left: ${px2vw(120)};
     }
 
     .nfts-imgs{
@@ -179,45 +178,12 @@ export const Contents = styled.div`
         padding-left: 1em; 
         text-indent: 1em;
         line-height: ${px2vw(75)};
-        font-weight: 200;
-    }
-
-    .tokenomics-item--play{
-        background-position: top 20rem left 2.5rem ;
-        background-image: url(${first});
-
-    }
-
-
-    .tokenomics-item--team{
-        background-position: top 20rem left 2.5rem ;
-        background-image: url(${second});
-    }
-
-    .tokenomics-item--liquidity{
-        background-position: top 20rem left 2.5rem ;
-        background-image: url(${third});
-    }
-
-
-    .tokenomics-item--private{
-        background-position: top 20rem left 2.5rem ;
-        background-image: url(${four}); 
-    }
-
-    .tokenomics-item--public{
-        background-position: top 20rem left 2.5rem ;
-        background-image: url(${five}); 
-    }
-
-
-    .tokenomics-item--marketing{
-        background-position: top 20rem left 2.5rem ;
-        background-image: url(${six});
+        font-weight: 400;
     }
 
     .supply{
         font-size: ${px2vw(32)};
+        margin-bottom: ${px2vw(10)};
     }
 
 `;

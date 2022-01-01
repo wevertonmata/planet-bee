@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from './../Header/index';
+import Header from '../Header/index';
 import Footer from '../Footer';
 
 import {Contents} from './styles';
@@ -10,7 +10,7 @@ import logo from '../../assets/img/logof.png';
 import troca from '../../assets/img/TROCA.png';
 import svw from '../../assets/img/STW.png';
 import lands from '../../assets/img/lands.png';
-import tokenomics from '../../assets/img/TOKENOMICS.png';
+import tokenomics from '../../assets/img/teste.png';
 import bees from '../../assets/img/bees.png';
 
 //import normal from '../../assets/img/nfts/normal.png';
@@ -146,14 +146,9 @@ const home: React.FC = () => {
          <h1>TOKENOMIC</h1>
          <div className="area  tokenomics-area">  
             <div className="column-text">
-               <ul className='tokenomics-lista'>
-                  <li className='tokenomics-item tokenomics-item--play'>50% - Play to earn</li>
-                  <li className='tokenomics-item tokenomics-item--team'>10% - Team</li>
-                  <li className='tokenomics-item tokenomics-item--liquidity'>20% - Liquidity</li>
-                  <li className='tokenomics-item tokenomics-item--private'>8% - Private sale</li>
-                  <li className='tokenomics-item tokenomics-item--public'>7% - Public sale</li>
-                  <li className='tokenomics-item tokenomics-item--marketing'>5% - Marketing</li>
-               </ul>
+               <p>
+
+               </p> 
             </div>
             <div className="column-img">
                <img className='rule-img' src={tokenomics} alt="Planet bee logo"/>

@@ -12,7 +12,7 @@ export const Container = styled.div`
     width: 90%;
 
     .logoFooter img{
-        width: 20%;
+        width: ${px2vw(60)};
         margin-top: ${px2vw(10)};
     }
 

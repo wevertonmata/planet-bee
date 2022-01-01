@@ -92,11 +92,10 @@ export const Contents = styled.div`
         left: 0;
         position: absolute;
         z-index: -1;
-        margin-top: ${px2vw(-270)};  
+        margin-top: ${px2vw(-200)};  
     }
 
     .save-text{
-        margin-bottom: ${px2vw(50)}; 
         width: 50%;
         margin-top: ${px2vw(20)}; 
     }

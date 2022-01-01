@@ -42,7 +42,7 @@ export const Contents = styled.div`
     h1{
         align-items: center;
         padding-top: ${px2vw(40)};
-        padding-bottom: ${px2vw(30)};
+        padding-bottom: ${px2vw(10)};
         font-size: ${px2vw(55)};
         color:#fff;
     }
@@ -127,7 +127,6 @@ export const Contents = styled.div`
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: ${px2vw(20)};
         margin-bottom: ${px2vw(20)};
     }
     
@@ -142,16 +141,16 @@ export const Contents = styled.div`
     }
 
     .nft-central{
-        width: 85%;
+        width: 75%;
     }
 
     .nft-side{
-        width: 70%;
+        width: 60%;
         margin-top:  ${px2vw(-50)}; 
     }
 
     .nft-outside{
-        width: 60%;
+        width: 50%;
         margin-top:  ${px2vw(-120)}; 
     }
 

@@ -16,7 +16,7 @@ export const Container = styled.div`
         flex-wrap: wrap;
         //margin-bottom: ${px2vw(40)};
         height: ${px2vw(90)};
-        border-bottom: 2px solid #fff;
+        border-bottom: 3px solid #ffcc33;
     }
 
 
@@ -35,6 +35,8 @@ export const Container = styled.div`
         position: absolute;
     }
 
+    //rgba(255,255,255,0.15);
+
     a { 
     color: #fff;
     width: 15%;
@@ -47,7 +49,7 @@ export const Container = styled.div`
     font-size:  ${px2vw(26)};
     font-weight: bold;
     margin-bottom: 0%;
-    border-left: 3px solid #fff;
+    border-left: 3px solid #ffcc33;
     }
 
     a:hover{
@@ -74,6 +76,7 @@ export const Container = styled.div`
         position: absolute;
         
     }
+
 
     .play:hover{
         color: #fff;

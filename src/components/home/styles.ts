@@ -41,15 +41,15 @@ export const Contents = styled.div`
 
     h1{
         align-items: center;
-        padding-top: ${px2vw(30)};
+        padding-top: ${px2vw(40)};
         padding-bottom: ${px2vw(30)};
-        font-size: ${px2vw(80)};
+        font-size: ${px2vw(55)};
         color:#fff;
     }
 
     p{
         text-align:justify;
-        font-size: ${px2vw(32)};
+        font-size: ${px2vw(24)};
         line-height: ${px2vw(45)};
         text-align: justify;
         color: #fff;
@@ -60,7 +60,7 @@ export const Contents = styled.div`
         display: flex;
         align-items: center ;
         margin-left:${px2vw(50)};
-        margin-bottom:${px2vw(20)};
+        margin-bottom:${px2vw(10)};
         margin-top:${px2vw(10)};
     }
 
@@ -83,12 +83,10 @@ export const Contents = styled.div`
 
 
     .rule-img {
-        width:  ${px2vw(500)};
+        width:  ${px2vw(400)};
     }
 
-    .land-img{
-        width:  ${px2vw(500)};
-    }
+
 
     .save-img {
         left: 0;
@@ -221,7 +219,7 @@ export const Contents = styled.div`
     }
 
     .supply{
-        font-size: ${px2vw(48)};
+        font-size: ${px2vw(32)};
     }
 
 `;

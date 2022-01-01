@@ -159,7 +159,7 @@ const home: React.FC = () => {
                <img className='rule-img' src={tokenomics} alt="Planet bee logo"/>
             </div>
          </div>
-         <h1 className='supply'>Total Supply: 100.000.000</h1>
+         <h1  className='supply'>Total Supply: 100.000.000</h1>
       </section>
       <hr/>
 

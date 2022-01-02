@@ -125,9 +125,10 @@ const home: React.FC = () => {
             </div>
             <div className="column-text">
              <p>
-               Get your own land and put the bees 
-               to rest with much more comfort and 
-               speed, increasing work productivity. 
+               Get your own land from our in-game 
+               store and put the bees to rest with much 
+               more comfort and speed, increasing your 
+               work productivity and PEE gains. 
              </p>
             </div>
          </div>
@@ -145,7 +146,7 @@ const home: React.FC = () => {
       <section className="item">
          <h1>TOKENOMIC</h1>
          <div className="area ">  
-               <img className='column-token-img' src={tokenomics} alt="Planet bee logo"/>
+               <img className='token-img' src={tokenomics} alt="Planet bee logo"/>
          </div>
          <h1  className='supply'>Total Supply: 100.000.000</h1>
       </section>

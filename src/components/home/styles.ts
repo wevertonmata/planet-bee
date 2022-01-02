@@ -48,7 +48,7 @@ export const Contents = styled.div`
         text-align: justify;
         color: #fff;
         padding-bottom: ${px2vw(10)};
-        font-weight: 300;
+        font-weight: 400;
     }
 
     .area{
@@ -75,8 +75,8 @@ export const Contents = styled.div`
         margin-right: auto;
         margin-left: auto;
     }
-    .column-token-img{
-        width: 90%;
+    .token-img{
+        width: 80%;
         padding: 10px;
         margin-right: auto;
         margin-left: auto;
@@ -86,12 +86,6 @@ export const Contents = styled.div`
     .rule-img {
         width:  ${px2vw(400)};
     }
-
-    .token-img {
-        width: 70%;
-    }
-
-
 
     .save-img {
         left: 0;

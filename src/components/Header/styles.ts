@@ -25,8 +25,7 @@ export const Container = styled.div`
         width: ${px2vw(85)};
     }
 
-    
-    .logo {    
+    .logo-a{
         border: none;
     }
 

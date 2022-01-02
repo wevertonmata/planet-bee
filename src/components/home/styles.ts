@@ -39,6 +39,7 @@ export const Contents = styled.div`
         font-size: ${px2vw(55)};
         color:#fff;
         font-family: var(--montserrat);
+        text-shadow: #000 5px 5px 15px;
     }
 
     p{

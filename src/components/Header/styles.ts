@@ -15,7 +15,8 @@ export const Container = styled.div`
         position: static;
         flex-wrap: nowrap;
         height: ${px2vw(75)};
-        border-bottom: 3px solid #acacacaa;
+        font-size:  ${px2vw(24)};
+        border-bottom: 0.15em solid #acacacaa;
         position: static;
         
     }
@@ -38,10 +39,9 @@ export const Container = styled.div`
     justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-size:  ${px2vw(24)};
     font-weight: bold;
     margin-bottom: 0%;
-    border-left: 3px solid #acacacaa;
+    border-left: 0.15em solid #acacacaa;
     position: static;
     }
 
@@ -51,20 +51,14 @@ export const Container = styled.div`
     }
 
     .play{
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
         padding-top: ${px2vw(20)};
         font-size:  ${px2vw(30)};
         color: #000;
         background-color: #ffcc33;
-        border: solid  ${px2vw(2)} #ffcc33;
-        border-radius:  ${px2vw(1)};
+        border: solid  0.5em #ffcc33;
+        border-radius:   0.3em;
         height:  ${px2vw(110)};
-        /* width:  ${px2vw(200)}; */
         z-index: 999;
-        //right: 0;
-        //margin-right:  ${px2vw(45)};
         position: static;
     }
 

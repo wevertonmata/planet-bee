@@ -12,29 +12,23 @@ export const Container = styled.div`
         display: flex;
         flex-direction: row;
         align-items: center;
+        position: static;
         flex-wrap: nowrap;
         height: ${px2vw(75)};
         border-bottom: 3px solid #acacacaa;
+        position: static;
         
     }
 
 
-    .logo img{
+    img{
         width: ${px2vw(85)};
-        
     }
 
     
-    .menu .logo {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin: 0 75px;
-        z-index: 999;
-        left: 0;        
+    .logo {    
+        border: none;
     }
-
-    //rgba(255,255,255,0.15);
 
     a { 
     color: #fff;
@@ -49,6 +43,7 @@ export const Container = styled.div`
     font-weight: bold;
     margin-bottom: 0%;
     border-left: 3px solid #acacacaa;
+    position: static;
     }
 
     a:hover{
@@ -57,9 +52,9 @@ export const Container = styled.div`
     }
 
     .play{
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         padding-top: ${px2vw(20)};
         font-size:  ${px2vw(30)};
         color: #000;
@@ -67,11 +62,11 @@ export const Container = styled.div`
         border: solid  ${px2vw(2)} #ffcc33;
         border-radius:  ${px2vw(1)};
         height:  ${px2vw(110)};
-        width:  ${px2vw(200)};
+        /* width:  ${px2vw(200)}; */
         z-index: 999;
-        right: 0;
-        margin-right:  ${px2vw(45)};
-        position: absolute;
+        //right: 0;
+        //margin-right:  ${px2vw(45)};
+        position: static;
         
     }
 

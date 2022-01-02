@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 
 import Header from '../Header/index';
 import Footer from '../Footer';
@@ -6,6 +7,7 @@ import Footer from '../Footer';
 import {Contents} from './styles';
 
 import bg from '../../assets/img/background.png';
+import bgTablet from '../../assets/img/bg-tablet.png';
 import logo from '../../assets/img/logof.png';
 import troca from '../../assets/img/TROCA.png';
 import svw from '../../assets/img/STW.png';
@@ -13,12 +15,12 @@ import lands from '../../assets/img/lands.png';
 import tokenomics from '../../assets/img/teste.png';
 import bees from '../../assets/img/bees.png';
 
-//import normal from '../../assets/img/nfts/normal.png';
 import princess from '../../assets/img/nfts/princess.png';
 import gladiator from '../../assets/img/nfts/gladiator.png';
 import astronaut from '../../assets/img/nfts/astronaut.png';
 import witch from '../../assets/img/nfts/witch.png';
 import zumbie from '../../assets/img/nfts/zumbie.png';
+
 
 
 
@@ -39,10 +41,10 @@ const home: React.FC = () => {
          <div className="area">  
             <div className="column-text">
              <p>
-             Assemble your squad of bees, manage 
-             new explorations, discover 
-             new scenarios, collect resources of varied 
-             rarities and get rewards in PBEE.
+               Assemble your squad of patrolling bees, 
+               manage new explorations, discover new scenarios, 
+               collect resources and get rewards in PBEE while 
+               saving the planet bee and the real world.
              </p>
             </div>
             <div className="column-img  play-img">
@@ -63,7 +65,8 @@ const home: React.FC = () => {
                <br/>
                We are the first decentralized currency with a future physical backing in a beekeeping project.
                <br/><br/>
-               Bees are extremely important to our lives and the environment, but they are dying because of human beings' daily actions with the planet.
+               Bees are extremely important to our lives and the environment, but they are dying 
+               because of human beings' daily actions with the planet.
                <br/><br/>
                Join the cause and help reverse what we destroyed for so long. 
              </p>

@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 import px2vw from "../../utils/px2vw";
 
+
+
 export const Contents = styled.div`
     display: flex;
     flex-direction: column;
@@ -146,4 +148,56 @@ export const Contents = styled.div`
         margin-bottom: ${px2vw(10)};
     }
 
+    @media screen and (max-width: 767px) {
+
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        
+        .area{
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+        }
+
+        p{
+            font-size: ${px2vw(28)};
+        }
+
+        .column-text{
+            width: 90%;
+            padding: 1em 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .column-img{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            padding: 1em;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .play-img{
+            padding-left: 0;
+        }
+
+        .normal{
+            display: none;
+        }
+
+        br{
+            line-height: 0%;
+        }
+
+        .nfts-imgs{
+            margin-top: 2em;
+        }
+
+    }
+
 `;
+

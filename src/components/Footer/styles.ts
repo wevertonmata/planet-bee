@@ -36,4 +36,9 @@ export const Container = styled.div`
         width: ${px2vw(40)};
         height: ${px2vw(40)};
     }
+
+    @media screen and (max-width: 767px) {
+       
+    }
+
 `;

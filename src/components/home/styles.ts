@@ -20,7 +20,6 @@ export const Contents = styled.div`
     }
 
     .bg img{
-        width: 100vw;
         overflow: hidden;
         position: absolute;
         top: 0;
@@ -150,6 +149,8 @@ export const Contents = styled.div`
 
     @media screen and (max-width: 767px) {
 
+        .bg{display:none}
+
         .area{
             display: flex;
             flex-direction: column; 
@@ -197,6 +198,8 @@ export const Contents = styled.div`
     }
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+        .bg{display:none}
         
         .area{
             display: flex;

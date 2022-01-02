@@ -9,7 +9,6 @@ export const Contents = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -149,7 +148,9 @@ export const Contents = styled.div`
 
     @media screen and (max-width: 767px) {
 
-        .bg{display:none}
+        .bg {
+        width: 100%;
+    }
 
         .area{
             display: flex;
@@ -199,8 +200,6 @@ export const Contents = styled.div`
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-        .bg{display:none}
-        
         .area{
             display: flex;
             flex-direction: column; 

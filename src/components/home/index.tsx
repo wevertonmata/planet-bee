@@ -144,15 +144,8 @@ const home: React.FC = () => {
 
       <section className="item">
          <h1>TOKENOMIC</h1>
-         <div className="area  tokenomics-area">  
-            <div className="column-text">
-               <p>
-
-               </p> 
-            </div>
-            <div className="column-img">
-               <img className='rule-img' src={tokenomics} alt="Planet bee logo"/>
-            </div>
+         <div className="area ">  
+               <img className='column-token-img' src={tokenomics} alt="Planet bee logo"/>
          </div>
          <h1  className='supply'>Total Supply: 100.000.000</h1>
       </section>

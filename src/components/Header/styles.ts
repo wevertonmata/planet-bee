@@ -67,7 +67,6 @@ export const Container = styled.div`
         //right: 0;
         //margin-right:  ${px2vw(45)};
         position: static;
-        
     }
 
     .play:hover{

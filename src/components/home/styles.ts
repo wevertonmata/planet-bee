@@ -75,10 +75,20 @@ export const Contents = styled.div`
         margin-right: auto;
         margin-left: auto;
     }
+    .column-token-img{
+        width: 90%;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 
     .rule-img {
         width:  ${px2vw(400)};
+    }
+
+    .token-img {
+        width: 70%;
     }
 
 

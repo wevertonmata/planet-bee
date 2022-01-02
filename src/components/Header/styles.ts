@@ -2,8 +2,7 @@ import styled from 'styled-components';
 import px2vw from "../../utils/px2vw";
 
 export const Container = styled.div`
-    border-radius:  ${px2vw(4)};
-    //margin-bottom: ${px2vw(40)};
+    border-radius:  1em;
     margin-left: auto;
     margin-right: auto;
     background-color: #4A00E033;
@@ -51,19 +50,19 @@ export const Container = styled.div`
     }
 
     .play{
-        padding-top: ${px2vw(20)};
+        padding-top: 0.75em;
         font-size:  ${px2vw(30)};
         color: #000;
         background-color: #ffcc33;
         border: solid  0.5em #ffcc33;
         border-radius:   0.3em;
-        height:  ${px2vw(110)};
+        height:  ${px2vw(120)};
         z-index: 999;
         position: static;
     }
 
     .play:hover{
-        transition-delay: 0.1s;
+        transition-delay: 0.12s;
         color: #ffffffcc;
         background-color: #ffcc33;
     }

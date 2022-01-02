@@ -45,7 +45,7 @@ const home: React.FC = () => {
              rarities and get rewards in PBEE.
              </p>
             </div>
-            <div className="column-img">
+            <div className="column-img  play-img">
              <img className='rule-img' src={troca} alt="Planet bee logo"/>
             </div>
          </div>
@@ -55,10 +55,10 @@ const home: React.FC = () => {
       <section className="item">
          <h1>SAVE THE WORLD</h1>
          <div className="area">  
-            <div className="column-img  save-column-img">
-               <img className="rule-img save-img" src={svw} alt="Planet bee logo"/>
+            <div className="column-img">
+               <img className="rule-img stw-img" src={svw} alt="Planet bee logo"/>
             </div>
-            <div className="column-text save-text">
+            <div className="column-text">
              <p>
                <br/>
                We are the first decentralized currency with a future physical backing in a beekeeping project.

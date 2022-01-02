@@ -7,7 +7,7 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: ${px2vw(20)};
+    margin-bottom: ${px2vw(10)};
     margin-top: ${px2vw(20)};
     width: 90%;
 

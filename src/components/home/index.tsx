@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
 import Header from '../Header/index';
 import Footer from '../Footer';
@@ -7,7 +6,6 @@ import Footer from '../Footer';
 import {Contents} from './styles';
 
 import bg from '../../assets/img/background.png';
-import bgTablet from '../../assets/img/bg-tablet.png';
 import logo from '../../assets/img/logof.png';
 import troca from '../../assets/img/TROCA.png';
 import svw from '../../assets/img/STW.png';

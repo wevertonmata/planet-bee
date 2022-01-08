@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import px2vw from "../../utils/px2vw";
 
-
+import bullet from '../../assets/img/bullet.png';
 
 export const Contents = styled.div`
     display: flex;
@@ -48,7 +48,7 @@ export const Contents = styled.div`
 
     p{
         text-align:justify;
-        font-size: ${px2vw(24)};
+        font-size: ${px2vw(23)};
         line-height: 2em;
         color: #fff;
         font-weight: 400;
@@ -153,9 +153,29 @@ export const Contents = styled.div`
     }
 
     //Roadmap
-    /* ul {
-        list-style-image: url('sqpurpe.gif');
-    } */
+
+    .roadmap-area{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .column-text-roadmap{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h2{
+        color: #fff;
+        //text-decoration: underline;
+
+    }
+    
+    .ul-roadmap {
+        list-style-image: url(${bullet});
+        color: #fff;
+        padding: 2em;
+        
+    }
 
     //Tokenomics
 

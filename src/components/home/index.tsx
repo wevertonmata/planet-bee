@@ -11,7 +11,6 @@ import troca from '../../assets/img/TROCA.png';
 import svw from '../../assets/img/STW.png';
 import lands from '../../assets/img/lands.png';
 import tokenomics from '../../assets/img/teste.png';
-import bees from '../../assets/img/bees.png';
 
 import princess from '../../assets/img/nfts/princess.png';
 import gladiator from '../../assets/img/nfts/gladiator.png';
@@ -127,18 +126,33 @@ const home: React.FC = () => {
          </div>
       </section>
       <hr/> 
-{/* 
-      <section className="roadmap">
+
+      {/* <section className="roadmap">
          <h1>ROADMAP</h1>
-         <div className="area">  
-         <div className="column-text">
-            <h1>Q1 - 2022</h1>
+         <div className="area roadmap-area">  
+         <div className="column-text column-text-roadmap">
+            <h2>Q1 - 2022</h2>
+            <ul className="ul-roadmap">
+               <li className="roadmap-item"><p>Starting Price: X,XX</p></li>
+               <li className="roadmap-item"><p>Token: PBEE</p></li>
+               <li className="roadmap-item"><p>Total Supply:</p></li>
+            </ul>
          </div>
-         <div className="column-text">
-            <h1>Q2 - 2022</h1>
+         <div className="column-text column-text-roadmap">
+            <h2>Q2 - 2022</h2>
+            <ul className="ul-roadmap">
+               <li className="roadmap-item"><p>Starting Price: X,XX</p></li>
+               <li className="roadmap-item"><p>Token: PBEE</p></li>
+               <li className="roadmap-item"><p>Total Supply:</p></li>
+            </ul>
          </div>
-         <div className="column-text">
-            <h1>Q3 - 2022</h1>
+         <div className="column-text column-text-roadmap">
+            <h2>Q3 - 2022</h2>
+            <ul className="ul-roadmap">
+               <li className="roadmap-item"><p>Starting Price: X,XX</p></li>
+               <li className="roadmap-item"><p>Token: PBEE</p></li>
+               <li className="roadmap-item"><p>Total Supply:</p></li>
+            </ul>
          </div>
         
          </div>

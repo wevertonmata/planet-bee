@@ -13,7 +13,76 @@ export const Contents = styled.div`
     left: 0;
     right: 0;
 
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 1em auto;
+    }
 
+    .area{
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+        margin-left: 0;
+    }
+
+    hr{
+        width: 98%;
+        border: 1px solid rgba(255,255,255, 0.25);
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: ${px2vw(40)};
+        color:#ffcc33;
+        font-family: var(--montserrat);
+        text-shadow: #000 0.25em 0.15em 0.5em;
+    }
+
+    p{
+        text-align:justify;
+        font-size: ${px2vw(24)};
+        line-height: 2em;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .column-text{
+        float: left;
+        width: 45%;
+        padding: 0.5em 0;
+        margin: 0 auto;
+    }
+
+    .column-img{
+        display: flex;
+        justify-content: center;
+        float: right;
+        width: 45%;
+        padding: 1em;
+    }
+
+    .rule-img {
+        width:  ${px2vw(400)};
+        padding-top: 1.5em;
+    }
+
+    // background-image 
     .bg {
         width: 100%;
     }
@@ -27,100 +96,49 @@ export const Contents = styled.div`
     }
 
     .logo img{
-        width: ${px2vw(120)};
-        margin-top:  ${px2vw(-50)};
+        width: ${px2vw(150)};
+        margin-top:  ${px2vw(-60)};
     }
 
-
-    h1{
-        align-items: center;
-        padding-top: 0.75em;
-        font-size: ${px2vw(55)};
-        color:#fff;
-        font-family: var(--montserrat);
-        text-shadow: #000 0.25em 0.15em 0.5em;
-    }
-
-    p{
-        text-align:justify;
-        font-size: ${px2vw(22)};
-        line-height: 2em;
-        color: #fff;
-        font-weight: 400;
-    }
-
-    .area{
-        display: flex;
-        align-items: center ;
-        margin-left: 0;
-        margin-bottom: 1em;
-        margin-top: 0.5em;
-    }
-
-
-    .column-text{
-        float: left;
-        width: 45%;
-        padding: 0.5em 0;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .column-img{
-        float: right;
-        width: 45%;
-        padding: 1em;
-        padding-left: 1em;
-        margin-right: auto;
-        margin-left: auto;
-    }
+    //images
 
     .play-img{
         padding-left: 5em;
     }
 
-    .rule-img {
-        width:  ${px2vw(400)};
-        padding-top: 1.5em;
+    .stw-img{
+        padding-top: 4.5em;
+        width:  ${px2vw(450)};
     }
 
-    .item{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-    }
+    //Characters
 
-    hr{
-        width: 98%;
-        border: 0.1em solid rgba(255,255,255, 0.25);
-    }
-
-    .normal{
-        margin-left: ${px2vw(120)};
+    .characters-text{
+        width: 84%;
+        text-align: justify;
+        padding-bottom: 2em;
+        padding-top: 0;
+        
     }
 
     .nfts-imgs{
+        width: 95%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: ${px2vw(20)};
+        margin: 1.75em 0;
+
     }
     
     .border-nft {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .nft-central{
-        width: 75%;
+        width: 70%;
     }
 
     .nft-side{
@@ -131,19 +149,48 @@ export const Contents = styled.div`
     .nft-outside{
         width: 50%;
         margin-top:  ${px2vw(-120)}; 
+
     }
 
+    //Roadmap
+    /* ul {
+        list-style-image: url('sqpurpe.gif');
+    } */
+
+    //Tokenomics
+
     .token-img{
-        width: 80%;
+        width: 75%;
         padding: 1em;  
-        margin-top: 2em;
         margin-right: auto;
         margin-left: auto;
     }
 
+    .ul-suply{
+        display: flex;
+        flex-direction: row;
+        width: ${px2vw(950)};
+        justify-content: space-around;
+    }
+
     .supply{
-        font-size: ${px2vw(32)};
-        margin-bottom: ${px2vw(10)};
+        padding: 2em;
+        color: #fff;
+        font-weight: 700;
+    }
+
+
+    .contract{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        padding: 0.5em;
+        border: 2px solid #fff;
+        border-radius: 0.5em;
+        margin-bottom: 1.5em;
     }
 
     @media screen and (max-width: 767px) {

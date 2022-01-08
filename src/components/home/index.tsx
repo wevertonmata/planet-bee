@@ -34,10 +34,10 @@ const home: React.FC = () => {
          <img src={logo} alt="Planet bee logo"/>
       </div>
       
-      <section className="item">
-         <h1>PLAY TO EARN</h1>
+      <section className="play-to-yearn">
          <div className="area">  
             <div className="column-text">
+             <h1>PLAY TO EARN</h1>  
              <p>
                Assemble your squad of patrolling bees, 
                manage new explorations, discover new scenarios, 
@@ -52,15 +52,15 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="item">
-         <h1>SAVE THE WORLD</h1>
+      <section className="save-the-world">
+         
          <div className="area">  
             <div className="column-img">
                <img className="rule-img stw-img" src={svw} alt="Planet bee logo"/>
             </div>
             <div className="column-text">
+             <h1>SAVE THE WORLD</h1>
              <p>
-               <br/>
                We are the first decentralized currency with a future physical backing in a beekeeping project.
                <br/><br/>
                Bees are extremely important to our lives and the environment, but they are dying 
@@ -73,22 +73,17 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="item">
+      <section className="characters">
          <h1>CHARACTERS</h1>
          <div className="area">  
-            <div className="column-text">
+            <div className="column-text characters-text">
              <p>
-               <br/>
-               Acquire new NFT characters as a reward 
-               for rare hives in-game or in our home 
-               market.<br/>
-               Grow your exploration fleet and help 
-               revitalize the world while increasing 
-               your expedition earnings. 
+               Each NFT has a different rarity, which is defined by the bee's energy, speed and supported weight.
+               <br/> 
+               Acquire new NFTs from our in-game store or on 
+               your explorations and  grow your patrol bee fleet to help 
+               revitalize the world while increasing your PBEE earnings with FEE FREE EXPEDITIONS. 
              </p>
-            </div>
-            <div className="column-img normal">
-             <img className='rule-img' src={bees} alt="Planet bee logo"/>
             </div>
          </div>
          <div className="nfts-imgs">
@@ -111,20 +106,14 @@ const home: React.FC = () => {
             <div className="border-nft">
                <img className='nft-outside' src={witch} alt="Planet bee logo"/>
             </div>
-            {/* <div className="border-nft">
-               <img src={normal} alt="Planet bee logo"/>
-            </div> */}
          </div>
       </section>
       <hr/> 
 
-      <section className="item">
-         <h1>LANDS</h1>
+      <section className="lands">
          <div className="area">  
-            <div className="column-img">
-             <img className='rule-img land-img' src={lands} alt="Planet bee logo"/>
-            </div>
             <div className="column-text">
+             <h1>LANDS</h1>
              <p>
                Get your own land from our in-game 
                store and put the bees to rest with much 
@@ -132,24 +121,44 @@ const home: React.FC = () => {
                work productivity and PEE gains. 
              </p>
             </div>
+            <div className="column-img">
+             <img className='rule-img' src={lands} alt="Planet bee logo"/>
+            </div>
          </div>
       </section>
       <hr/> 
-
-      {/* <section className="item">
+{/* 
+      <section className="roadmap">
          <h1>ROADMAP</h1>
          <div className="area">  
-            
+         <div className="column-text">
+            <h1>Q1 - 2022</h1>
+         </div>
+         <div className="column-text">
+            <h1>Q2 - 2022</h1>
+         </div>
+         <div className="column-text">
+            <h1>Q3 - 2022</h1>
+         </div>
+        
          </div>
       </section>
       <hr/>  */}
 
-      <section className="item">
+      <section className="tokenomic">
          <h1>TOKENOMIC</h1>
-         <div className="area ">  
+         <div className="area">  
                <img className='token-img' src={tokenomics} alt="Planet bee logo"/>
          </div>
-         <h1  className='supply'>Total Supply: 100.000.000</h1>
+         <ul className="ul-suply">
+            <li className="supply"><h3>Starting Price: X,XX</h3></li>
+            <li className="supply"><h3>Token: PBEE</h3></li>
+            <li className="supply"><h3>Total Supply: 100.000.000</h3></li>
+         </ul>
+         <div className='contract'>
+            <h3>SMART CONTRACT</h3>
+            <p>- Coming Soon -</p>
+         </div>
       </section>
       <hr/>
 

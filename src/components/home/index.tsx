@@ -127,37 +127,47 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      {/* <section className="roadmap">
+      <section className="roadmap">
          <h1>ROADMAP</h1>
          <div className="area roadmap-area">  
          <div className="column-text column-text-roadmap">
             <h2>Q1 - 2022</h2>
             <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>Starting Price: X,XX</p></li>
-               <li className="roadmap-item"><p>Token: PBEE</p></li>
-               <li className="roadmap-item"><p>Total Supply:</p></li>
+               <li className="roadmap-item"><p>Discord comunitty</p></li>
+               <li className="roadmap-item"><p>Twitter account</p></li>
+               <li className="roadmap-item"><p>Telegram channel</p></li>
+               <li className="roadmap-item"><p>Website</p></li>
+               <li className="roadmap-item"><p>Whitepaper</p></li>
+               <li className="roadmap-item"><p>Marketing</p></li>
+               <li className="roadmap-item"><p>Pre sale</p></li>
+               <li className="roadmap-item"><p>P2E alpha game for presabe buyers</p></li>
             </ul>
          </div>
          <div className="column-text column-text-roadmap">
             <h2>Q2 - 2022</h2>
             <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>Starting Price: X,XX</p></li>
-               <li className="roadmap-item"><p>Token: PBEE</p></li>
-               <li className="roadmap-item"><p>Total Supply:</p></li>
+               <li className="roadmap-item"><p>Game bug fix</p></li>
+               <li className="roadmap-item"><p>PBEE token launch</p></li>
+               <li className="roadmap-item"><p>Official Version of P2E Game</p></li>
+               <li className="roadmap-item"><p>Intensify marketing</p></li>
+               <li className="roadmap-item"><p>Add more NFT skins</p></li>
             </ul>
          </div>
          <div className="column-text column-text-roadmap">
             <h2>Q3 - 2022</h2>
             <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>Starting Price: X,XX</p></li>
-               <li className="roadmap-item"><p>Token: PBEE</p></li>
-               <li className="roadmap-item"><p>Total Supply:</p></li>
+               <li className="roadmap-item"><p>Listing PBEE on Gate.io</p></li>
+               <li className="roadmap-item"><p>Start physical ballast to save the bees</p></li>
+               <li className="roadmap-item"><p>Adventure mode</p></li>
+               <li className="roadmap-item"><p>Whitepaper</p></li>
+               <li className="roadmap-item"><p>Marketing</p></li>
+               <li className="roadmap-item"><p>PreSale</p></li>
             </ul>
          </div>
         
          </div>
       </section>
-      <hr/>  */}
+      <hr/> 
 
       <section className="tokenomic">
          <h1>TOKENOMIC</h1>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import px2vw from "../../utils/px2vw";
 
-import bullet from '../../assets/img/bullet.png';
+import bullet from '../../assets/img/bullet.svg';
 
 export const Contents = styled.div`
     display: flex;
@@ -155,18 +155,20 @@ export const Contents = styled.div`
     //Roadmap
 
     .roadmap-area{
-        width: 90%;
+        width: 95%;
         display: flex;
-        align-items: center;
+        justify-content: center;
+        align-items: flex-start;
     }
     .column-text-roadmap{
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
     }
 
     h2{
         color: #fff;
-        //text-decoration: underline;
+        align-self: center;
+        border-bottom: 5px solid #ffcc33;
 
     }
     
@@ -174,7 +176,12 @@ export const Contents = styled.div`
         list-style-image: url(${bullet});
         color: #fff;
         padding: 2em;
-        
+        margin-left: ${px2vw(90)};
+    }
+
+    .roadmap-item p{
+        text-align: left;
+        font-size: ${px2vw(22)};
     }
 
     //Tokenomics

@@ -169,7 +169,7 @@ export const Contents = styled.div`
         color: #fff;
         align-self: center;
         border-bottom: 5px solid #ffcc33;
-
+        border-radius: 0.1em;
     }
     
     .ul-roadmap {

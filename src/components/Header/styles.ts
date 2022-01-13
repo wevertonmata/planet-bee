@@ -34,7 +34,7 @@ export const Container = styled.div`
     }
 
     a:hover{
-        color: #ffcc33;
+        color: #ffde00;
     }
 
     .bottons-nav{
@@ -42,24 +42,34 @@ export const Container = styled.div`
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        padding-left: ${px2vw(50)};
+        padding-right: ${px2vw(50)};
         width: 70%;
+    }
+
+    .bottons-nav a:hover{
+        font-size:  ${px2vw(26)};   
+        transition-delay: 0.2s;
     }
 
     .play{
         font-size:  ${px2vw(30)};
         color: #1e0042;
-        background-color: #ffcc33;
-        border: solid  0.5em #ffcc33;
+        background-color: #ffde00;
+        border: solid  0.5em #ffde00;;
         border-radius:   0.3em;
         height:  ${px2vw(65)};
-        box-shadow: -5px 2px 4px #000;
-        text-shadow: 1.5px 1px  1px #000;
+        //box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     }
 
     .play:hover{
         transition-delay: 0.2s;
-        color: #000;
-        background-color: #ffcc33;
+        color: #fff;
+        background-color: #ffde00;
+        font-size:  ${px2vw(30)};   
+        transition-delay: 0.2s;
+        text-shadow: 4px 0px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 2px 10px rgba(150, 150, 150, 0.5); 
     }
 
     @media screen and (max-width: 767px) {

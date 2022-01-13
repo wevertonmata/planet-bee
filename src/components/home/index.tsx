@@ -51,19 +51,21 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="save-the-world">
+      <section className="save-the-planet">
          
          <div className="area">  
             <div className="column-img">
-               <img className="rule-img stw-img" src={svw} alt="Planet bee logo"/>
+               <img className="rule-img stp-img" src={svw} alt="Planet bee logo"/>
             </div>
             <div className="column-text">
-             <h1>SAVE THE WORLD</h1>
+             <h1>SAVE THE PLANET</h1>
              <p>
                We are the first decentralized currency with a future physical backing in a beekeeping project.
                <br/><br/>
-               Bees are extremely important to our lives and the environment, but they are dying 
-               because of human beings' daily actions with the planet.
+               Bees are extremely important for 
+               our lives and for the environment, but they are dying because of 
+               the daily actions of human beings with the planet,
+               such as deforestation and pesticide abuse.
                <br/><br/>
                Join the cause and help reverse what we destroyed for so long. 
              </p>
@@ -133,35 +135,35 @@ const home: React.FC = () => {
          <div className="column-text column-text-roadmap">
             <h2>Q1 - 2022</h2>
             <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>Discord comunitty</p></li>
-               <li className="roadmap-item"><p>Twitter account</p></li>
-               <li className="roadmap-item"><p>Telegram channel</p></li>
-               <li className="roadmap-item"><p>Website</p></li>
-               <li className="roadmap-item"><p>Whitepaper</p></li>
-               <li className="roadmap-item"><p>Marketing</p></li>
-               <li className="roadmap-item"><p>Pre sale</p></li>
-               <li className="roadmap-item"><p>P2E alpha game for presabe buyers</p></li>
+               <li className="roadmap-item"><p>🟨 Discord comunitty</p></li>
+               <li className="roadmap-item"><p>🟨 Twitter account</p></li>
+               <li className="roadmap-item"><p>🟨 Telegram channel</p></li>
+               <li className="roadmap-item"><p>🟨 Website</p></li>
+               <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
+               <li className="roadmap-item"><p>🟨 Marketing</p></li>
+               <li className="roadmap-item"><p>🟨 Pre sale</p></li>
+               <li className="roadmap-item"><p>🟨 P2E alpha game for presabe buyers</p></li>
             </ul>
          </div>
          <div className="column-text column-text-roadmap">
             <h2>Q2 - 2022</h2>
             <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>Game bug fix</p></li>
-               <li className="roadmap-item"><p>PBEE token launch</p></li>
-               <li className="roadmap-item"><p>Official Version of P2E Game</p></li>
-               <li className="roadmap-item"><p>Intensify marketing</p></li>
-               <li className="roadmap-item"><p>Add more NFT skins</p></li>
+               <li className="roadmap-item"><p>🟨 Game bug fix</p></li>
+               <li className="roadmap-item"><p>🟨 PBEE token launch</p></li>
+               <li className="roadmap-item"><p>🟨 Official Version of P2E Game</p></li>
+               <li className="roadmap-item"><p>🟨 Intensify marketing</p></li>
+               <li className="roadmap-item"><p>🟨 Add more NFT skins</p></li>
             </ul>
          </div>
          <div className="column-text column-text-roadmap">
             <h2>Q3 - 2022</h2>
             <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>Listing PBEE on Gate.io</p></li>
-               <li className="roadmap-item"><p>Start physical ballast to save the bees</p></li>
-               <li className="roadmap-item"><p>Adventure mode</p></li>
-               <li className="roadmap-item"><p>Whitepaper</p></li>
-               <li className="roadmap-item"><p>Marketing</p></li>
-               <li className="roadmap-item"><p>PreSale</p></li>
+               <li className="roadmap-item"><p>🟨 Listing PBEE on Gate.io</p></li>
+               <li className="roadmap-item"><p>🟨 Start physical ballast to save the bees</p></li>
+               <li className="roadmap-item"><p>🟨 Adventure mode</p></li>
+               <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
+               <li className="roadmap-item"><p>🟨 Marketing</p></li>
+               <li className="roadmap-item"><p>🟨 PreSale</p></li>
             </ul>
          </div>
         

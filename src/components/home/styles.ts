@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 import px2vw from "../../utils/px2vw";
 
-import bullet from '../../assets/img/bullet.svg';
-
 export const Contents = styled.div`
     display: flex;
     flex-direction: column;
@@ -31,7 +29,8 @@ export const Contents = styled.div`
 
     hr{
         width: 98%;
-        border: 1px solid rgba(255,255,255, 0.25);
+        border: 0.01em solid rgba(255,255,255, 0.25);
+        background-color: rgba(255,255,255, 0.25);
     }
 
     h1{
@@ -40,10 +39,11 @@ export const Contents = styled.div`
         align-items: center;
         padding-top: 1em;
         padding-bottom: 1em;
-        font-size: ${px2vw(40)};
-        color:#ffcc33;
-        font-family: var(--montserrat);
-        text-shadow: #000 0.25em 0.15em 0.5em;
+        font-size: ${px2vw(45)};
+        color: #ffde00;
+        font-family: var(--poppins);
+        font-weight: 700;
+        text-shadow: 4.25px 2px 5px rgba(0, 0, 0, 0.8);
     }
 
     p{
@@ -106,7 +106,7 @@ export const Contents = styled.div`
         padding-left: 5em;
     }
 
-    .stw-img{
+    .stp-img{
         padding-top: 4.5em;
         width:  ${px2vw(450)};
     }
@@ -155,7 +155,7 @@ export const Contents = styled.div`
     //Roadmap
 
     .roadmap-area{
-        width: 95%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -168,20 +168,21 @@ export const Contents = styled.div`
     h2{
         color: #fff;
         align-self: center;
-        border-bottom: 5px solid #ffcc33;
+        border-bottom: 5px solid #ffde00;
         border-radius: 0.1em;
     }
     
     .ul-roadmap {
-        list-style-image: url(${bullet});
         color: #fff;
         padding: 2em;
-        margin-left: ${px2vw(90)};
+        margin-left: ${px2vw(30)};
     }
 
     .roadmap-item p{
         text-align: left;
         font-size: ${px2vw(22)};
+    overflow: hidden;
+    text-overflow: ellipsis;
     }
 
     //Tokenomics

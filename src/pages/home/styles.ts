@@ -157,12 +157,13 @@ export const Contents = styled.div`
     .roadmap-area{
         width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
     .column-text-roadmap{
-        display: flex;
+        display:flex;
         flex-direction: column;
+        justify-content: center;
+        width: 100%;
     }
 
     h2{
@@ -174,16 +175,16 @@ export const Contents = styled.div`
     
     .ul-roadmap {
         color: #fff;
-        padding: 2em;
-        margin-left: ${px2vw(30)};
+        padding-top: 1em;
     }
 
     .roadmap-item p{
         text-align: left;
-        font-size: ${px2vw(22)};
-    overflow: hidden;
-    text-overflow: ellipsis;
+        padding-left: ${px2vw(75)};
+        font-size: ${px2vw(24)};
     }
+
+
 
     //Tokenomics
 

@@ -1,4 +1,8 @@
 import React from 'react';
+
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 import GlobalStyles from'../../styles/global';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -19,6 +23,73 @@ import astronaut from '../../assets/img/nfts/astronaut.png';
 import witch from '../../assets/img/nfts/witch.png';
 import zumbie from '../../assets/img/nfts/zumbie.png';
 
+
+const handleDragStart = (e: any) => e.preventDefault();
+
+const items = [
+   <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation" >
+   <h2>Q1 - 2022</h2>
+   <ul className="ul-roadmap">
+      <li className="roadmap-item"><p>🟨 Discord comunitty</p></li>
+      <li className="roadmap-item"><p>🟨 Twitter account</p></li>
+      <li className="roadmap-item"><p>🟨 Telegram channel</p></li>
+      <li className="roadmap-item"><p>🟨 Website</p></li>
+      <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
+      <li className="roadmap-item"><p>🟨 Marketing</p></li>
+      <li className="roadmap-item"><p>🟨 Pre sale</p></li>
+      <li className="roadmap-item"><p>🟨 P2E alpha game for presabe buyers</p></li>
+   </ul>
+   </div>,
+   <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
+      <h2>Q2 - 2022</h2>
+      <ul className="ul-roadmap">
+         <li className="roadmap-item"><p>🟨 Game bug fix</p></li>
+         <li className="roadmap-item"><p>🟨 PBEE token launch</p></li>
+         <li className="roadmap-item"><p>🟨 Official Version of P2E Game</p></li>
+         <li className="roadmap-item"><p>🟨 Intensify marketing</p></li>
+         <li className="roadmap-item"><p>🟨 Add more NFT skins</p></li>
+      </ul>
+   </div>,
+   <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
+      <h2>Q3 - 2022</h2>
+      <ul className="ul-roadmap">
+         <li className="roadmap-item"><p>🟨 Listing PBEE on Gate.io</p></li>
+         <li className="roadmap-item"><p>🟨 Start physical ballast to save the bees</p></li>
+         <li className="roadmap-item"><p>🟨 Adventure mode</p></li>
+         <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
+         <li className="roadmap-item"><p>🟨 Marketing</p></li>
+         <li className="roadmap-item"><p>🟨 PreSale</p></li>
+      </ul>
+   </div>,
+   <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
+      <h2>Q4 - 2022</h2>
+      <ul className="ul-roadmap">
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+      </ul>
+   </div>,
+   <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
+      <h2>Q5 - 2022</h2>
+      <ul className="ul-roadmap">
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+      </ul>
+   </div>
+ ];
+
+ const responsive = {
+   0: { items: 1 },
+   568: { items: 2 },
+   1024: { items: 3 },
+};
 
 const home: React.FC = () => {
 
@@ -131,42 +202,9 @@ const home: React.FC = () => {
 
       <section id="roadmap">
          <h1>ROADMAP</h1>
-         <div className="area roadmap-area">  
-         <div className="column-text column-text-roadmap">
-            <h2>Q1 - 2022</h2>
-            <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>🟨 Discord comunitty</p></li>
-               <li className="roadmap-item"><p>🟨 Twitter account</p></li>
-               <li className="roadmap-item"><p>🟨 Telegram channel</p></li>
-               <li className="roadmap-item"><p>🟨 Website</p></li>
-               <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
-               <li className="roadmap-item"><p>🟨 Marketing</p></li>
-               <li className="roadmap-item"><p>🟨 Pre sale</p></li>
-               <li className="roadmap-item"><p>🟨 P2E alpha game for presabe buyers</p></li>
-            </ul>
-         </div>
-         <div className="column-text column-text-roadmap">
-            <h2>Q2 - 2022</h2>
-            <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>🟨 Game bug fix</p></li>
-               <li className="roadmap-item"><p>🟨 PBEE token launch</p></li>
-               <li className="roadmap-item"><p>🟨 Official Version of P2E Game</p></li>
-               <li className="roadmap-item"><p>🟨 Intensify marketing</p></li>
-               <li className="roadmap-item"><p>🟨 Add more NFT skins</p></li>
-            </ul>
-         </div>
-         <div className="column-text column-text-roadmap">
-            <h2>Q3 - 2022</h2>
-            <ul className="ul-roadmap">
-               <li className="roadmap-item"><p>🟨 Listing PBEE on Gate.io</p></li>
-               <li className="roadmap-item"><p>🟨 Start physical ballast to save the bees</p></li>
-               <li className="roadmap-item"><p>🟨 Adventure mode</p></li>
-               <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
-               <li className="roadmap-item"><p>🟨 Marketing</p></li>
-               <li className="roadmap-item"><p>🟨 PreSale</p></li>
-            </ul>
-         </div>
-        
+
+         <div className="area roadmap-area">
+            <AliceCarousel mouseTracking items={items} responsive={responsive} controlsStrategy="default,alternative" />
          </div>
       </section>
       <hr/> 

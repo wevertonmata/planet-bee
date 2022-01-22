@@ -8,6 +8,11 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
     :root {
       font-size: ${px2vw(18)};
       --montserrat: 'Montserrat', sans-serif;

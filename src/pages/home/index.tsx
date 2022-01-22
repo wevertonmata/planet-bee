@@ -1,7 +1,7 @@
 import React from 'react';
-
-import Header from '../Header/index';
-import Footer from '../Footer';
+import GlobalStyles from'../../styles/global';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 import {Contents} from './styles';
 
@@ -12,6 +12,7 @@ import svw from '../../assets/img/STW.png';
 import lands from '../../assets/img/lands.png';
 import tokenomics from '../../assets/img/teste.png';
 
+//Nfts
 import princess from '../../assets/img/nfts/princess.png';
 import gladiator from '../../assets/img/nfts/gladiator.png';
 import astronaut from '../../assets/img/nfts/astronaut.png';
@@ -19,12 +20,11 @@ import witch from '../../assets/img/nfts/witch.png';
 import zumbie from '../../assets/img/nfts/zumbie.png';
 
 
-
-
 const home: React.FC = () => {
 
   return (
     <>
+      <GlobalStyles/>
       <Header/>
      
       <Contents>  
@@ -33,7 +33,7 @@ const home: React.FC = () => {
          <img src={logo} alt="Planet bee logo"/>
       </div>
       
-      <section className="play-to-yearn">
+      <section id="play-to-yearn">
          <div className="area">  
             <div className="column-text">
              <h1>PLAY TO EARN</h1>  
@@ -51,7 +51,7 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="save-the-planet">
+      <section id="save-the-planet">
          
          <div className="area">  
             <div className="column-img">
@@ -74,7 +74,7 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="characters">
+      <section id="characters">
          <h1>CHARACTERS</h1>
          <div className="area">  
             <div className="column-text characters-text">
@@ -111,7 +111,7 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="lands">
+      <section id="lands">
          <div className="area">  
             <div className="column-text">
              <h1>LANDS</h1>
@@ -129,7 +129,7 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="roadmap">
+      <section id="roadmap">
          <h1>ROADMAP</h1>
          <div className="area roadmap-area">  
          <div className="column-text column-text-roadmap">
@@ -171,7 +171,7 @@ const home: React.FC = () => {
       </section>
       <hr/> 
 
-      <section className="tokenomic">
+      <section id="tokenomic">
          <h1>TOKENOMIC</h1>
          <div className="area">  
                <img className='token-img' src={tokenomics} alt="Planet bee logo"/>

@@ -220,7 +220,7 @@ export const Contents = styled.div`
         border-radius: 0.5em;
         margin-bottom: 1.5em;
     }
-
+/* 
     @media screen and (max-width: 767px) {
 
         .bg {
@@ -318,7 +318,7 @@ export const Contents = styled.div`
             margin-top: 2em;
         }
 
-    }
+    } */
 
 `;
 

@@ -154,6 +154,10 @@ export const Contents = styled.div`
 
     //Roadmap
 
+    #roadmap{
+        width: 100%;
+    }
+
     .roadmap-area{
         width: 100%;
         display: flex;
@@ -169,21 +173,24 @@ export const Contents = styled.div`
     h2{
         color: #fff;
         align-self: center;
-        border-bottom: 5px solid #ffde00;
+        border-bottom: 0.1em solid #ffde00;
         border-radius: 0.1em;
     }
     
     .ul-roadmap {
         color: #fff;
         padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+        
     }
 
     .roadmap-item p{
         text-align: left;
         padding-left: ${px2vw(75)};
         font-size: ${px2vw(24)};
+        padding-bottom: 0.01em;
     }
-
 
 
     //Tokenomics
@@ -221,105 +228,27 @@ export const Contents = styled.div`
         border-radius: 0.5em;
         margin-bottom: 1.5em;
     }
-/* 
+
     @media screen and (max-width: 767px) {
-
-        .bg {
-        width: 100%;
-    }
-
-        .area{
-            display: flex;
-            flex-direction: column; 
+        .column-text-roadmap{
+            float: none;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding-bottom: ${px2vw(20)};
         }
 
-        p{
-            font-size: ${px2vw(28)};
+        .roadmap-area{
+            padding-bottom: ${px2vw(32)};
         }
-
-        .column-text{
-            width: 90%;
-            padding: 1em 0;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        .column-img{
-            display: flex;
-            justify-content: center;
-            width: 50%;
-            padding: 1em;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        .play-img{
-            padding-left: 0;
-        }
-
-        .normal{
-            display: none;
-        }
-
-        br{
-            line-height: 0%;
-        }
-
-        .nfts-imgs{
-            margin-top: 2em;
-        }
-
-
+        
     }
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-        .area{
-            display: flex;
-            flex-direction: column; 
-            justify-content: center;
-            align-items: center;
-        }
+       
 
-        p{
-            font-size: ${px2vw(28)};
-        }
-
-        .column-text{
-            width: 90%;
-            padding: 1em 0;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        .column-img{
-            display: flex;
-            justify-content: center;
-            width: 50%;
-            padding: 1em;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        .play-img{
-            padding-left: 0;
-        }
-
-        .normal{
-            display: none;
-        }
-
-        br{
-            line-height: 0%;
-        }
-
-        .nfts-imgs{
-            margin-top: 2em;
-        }
-
-    } */
+    }
 
 `;
 

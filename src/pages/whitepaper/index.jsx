@@ -1,12 +1,18 @@
 import React from 'react';
 
-//import {Contents} from './styles';
+import {Contents} from './styles';
 
 const whitepaper = () => {
 
+    const data = '<object data="https://rafael-costa-souza.gitbook.io/planetbee/" />';
+
     return (
       <>
-        <h1>Hello</h1>
+        <Contents>
+          <div
+            dangerouslySetInnerHTML={{__html: data}}
+          />
+        </Contents>
       </>
     );
 };

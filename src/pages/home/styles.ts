@@ -32,7 +32,7 @@ export const Contents = styled.div`
         width: 98%;
         border: 0.01em solid rgba(255,255,255, 0.25);
         background-color: rgba(255,255,255, 0.25);
-        margin: 2em 0;
+        margin: 3em 0;
     }
 
     h1{
@@ -106,7 +106,7 @@ export const Contents = styled.div`
         padding-left: 2em;
         padding-top: 2em;
         display: flex;
-        justify-content: left;
+        justify-content: center;
     }
 
     .stp-img{
@@ -114,10 +114,6 @@ export const Contents = styled.div`
         width:  ${px2vw(450)};
     }
 
-    //Play
-    .play-text{
-        margin-left: 1em;
-    }
 
     #lands{
         margin-bottom: 0;

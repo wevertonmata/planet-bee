@@ -235,10 +235,13 @@ export const Contents = styled.div`
         justify-content: center;
         align-items: center;
         color: #fff;
-        padding: 0.5em;
+        padding-top: 0.5em;
         border: 2px solid #fff;
         border-radius: 0.5em;
-        margin-bottom: 1.5em;
+    }
+
+    #tokenomic{
+        margin-bottom: 0;
     }
 
     @media screen and (max-width: 767px) {

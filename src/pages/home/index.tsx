@@ -29,56 +29,56 @@ const items = [
    <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation" >
    <h2>Q1 - 2022</h2>
    <ul className="ul-roadmap">
-      <li className="roadmap-item"><p>🟨 Discord and Telegram comunitty</p></li>
-      <li className="roadmap-item"><p>🟨 Twitter account</p></li>
-      <li className="roadmap-item"><p>🟨 Website</p></li>
-      <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
-      <li className="roadmap-item"><p>🟨 Marketing</p></li>
-      <li className="roadmap-item"><p>🟨 Pre sale</p></li>
-      <li className="roadmap-item"><p>🟨 P2E alpha for presabe buyers</p></li>
+      <li className="roadmap-item"><p>🌳 Discord and Telegram comunitty</p></li>
+      <li className="roadmap-item"><p>🌳 Twitter account</p></li>
+      <li className="roadmap-item"><p>🌳 Website</p></li>
+      <li className="roadmap-item"><p>🌳 Whitepaper</p></li>
+      <li className="roadmap-item"><p>🌳 Marketing</p></li>
+      <li className="roadmap-item"><p>🌱 Pre sale</p></li>
+      <li className="roadmap-item"><p>🌱 P2E alpha for presabe buyers</p></li>
    </ul>
    </div>,
    <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
       <h2>Q2 - 2022</h2>
       <ul className="ul-roadmap">
-         <li className="roadmap-item"><p>🟨 Game bug fix</p></li>
-         <li className="roadmap-item"><p>🟨 PBEE token launch</p></li>
-         <li className="roadmap-item"><p>🟨 Official Version of P2E Game</p></li>
-         <li className="roadmap-item"><p>🟨 Intensify marketing</p></li>
-         <li className="roadmap-item"><p>🟨 Add more NFT skins</p></li>
+         <li className="roadmap-item"><p>🌱 Game bug fix</p></li>
+         <li className="roadmap-item"><p>🌱 PBEE token launch</p></li>
+         <li className="roadmap-item"><p>🌱 Official Version of P2E Game</p></li>
+         <li className="roadmap-item"><p>🌱 Intensify marketing</p></li>
+         <li className="roadmap-item"><p>🌱 Add more NFT skins</p></li>
       </ul>
    </div>,
    <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
       <h2>Q3 - 2022</h2>
       <ul className="ul-roadmap">
-         <li className="roadmap-item"><p>🟨 Listing PBEE on Gate.io</p></li>
-         <li className="roadmap-item"><p>🟨 Start physical ballast to save the bees</p></li>
-         <li className="roadmap-item"><p>🟨 Adventure mode</p></li>
-         <li className="roadmap-item"><p>🟨 Whitepaper</p></li>
-         <li className="roadmap-item"><p>🟨 Marketing</p></li>
-         <li className="roadmap-item"><p>🟨 PreSale</p></li>
+         <li className="roadmap-item"><p>🌱 Listing PBEE on Gate.io</p></li>
+         <li className="roadmap-item"><p>🌱 Start physical ballast to save the bees</p></li>
+         <li className="roadmap-item"><p>🌱 Adventure mode</p></li>
+         <li className="roadmap-item"><p>🌱 Whitepaper</p></li>
+         <li className="roadmap-item"><p>🌱 Marketing</p></li>
+         <li className="roadmap-item"><p>🌱 PreSale</p></li>
       </ul>
    </div>,
    <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
       <h2>Q4 - 2022</h2>
       <ul className="ul-roadmap">
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
       </ul>
    </div>,
    <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
       <h2>Q5 - 2022</h2>
       <ul className="ul-roadmap">
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
-         <li className="roadmap-item"><p>🟨 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
+         <li className="roadmap-item"><p>🌱 Coming Soon...</p></li>
       </ul>
    </div>
  ];
@@ -104,7 +104,7 @@ const home: React.FC = () => {
       
       <section id="play-to-yearn">
          <div className="area">  
-            <div className="column-text">
+            <div className="column-text play-text">
              <h1>PLAY TO EARN</h1>  
              <p>
                Assemble your squad of patrolling bees, 
@@ -126,7 +126,7 @@ const home: React.FC = () => {
             <div className="column-img">
                <img className="rule-img stp-img" src={svw} alt="Planet bee logo"/>
             </div>
-            <div className="column-text">
+            <div className="column-text save-text">
              <h1>SAVE THE PLANET</h1>
              <p>
                We are the first decentralized currency with a future physical backing in a beekeeping project.
@@ -156,8 +156,8 @@ const home: React.FC = () => {
              </p>
             </div>
          </div>
-         <div className="nfts-imgs">
-            <div className="border-nft">
+         <div className="nfts-imgs ">
+            <div className="border-nft nft-outside-right">
                <img className='nft-outside' src={princess} alt="Planet bee logo"/>
             </div>
 
@@ -173,8 +173,8 @@ const home: React.FC = () => {
                <img className='nft-side' src={zumbie} alt="Planet bee logo"/>
             </div>
 
-            <div className="border-nft">
-               <img className='nft-outside' src={witch} alt="Planet bee logo"/>
+            <div className="border-nft  ">
+               <img className='nft-outside nft-outside-left' src={witch} alt="Planet bee logo"/>
             </div>
          </div>
       </section>

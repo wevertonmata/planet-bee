@@ -1,17 +1,17 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 
 import {Contents} from './styles';
 
 const whitepaper = () => {
-
-    const data = '<object data="https://rafael-costa-souza.gitbook.io/planetbee/" />';
-
+  
     return (
       <>
         <Contents>
           <div
-            dangerouslySetInnerHTML={{__html: data}}
+            dangerouslySetInnerHTML={{__html: '<object data="https://theuselessweb.com/"  width="800"  height="800"  type="text/html" </object>'}}
           />
+   
         </Contents>
       </>
     );

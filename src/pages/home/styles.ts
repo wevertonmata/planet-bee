@@ -17,28 +17,29 @@ export const Contents = styled.div`
         justify-content: center;
         align-items: center;
         width: 90%;
-        margin: 1em auto;
+        margin: 0 auto;
+        margin-bottom: 0.5em;
     }
 
     .area{
         display: flex;
         flex-direction: row;
         align-items: center ;
-        margin-left: 0;
+        margin: 0 auto;
     }
 
     hr{
         width: 98%;
         border: 0.01em solid rgba(255,255,255, 0.25);
         background-color: rgba(255,255,255, 0.25);
+        margin: 2em 0;
     }
 
     h1{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-bottom: 0.5em;
         font-size: ${px2vw(45)};
         color: #ffde00;
         font-family: var(--poppins);
@@ -65,7 +66,6 @@ export const Contents = styled.div`
     .column-text{
         float: left;
         width: 45%;
-        padding: 0.5em 0;
         margin: 0 auto;
     }
 
@@ -75,11 +75,11 @@ export const Contents = styled.div`
         float: right;
         width: 45%;
         padding: 1em;
+        padding-bottom: 0;
     }
 
     .rule-img {
         width:  ${px2vw(400)};
-        padding-top: 1.5em;
     }
 
     // background-image 
@@ -103,12 +103,24 @@ export const Contents = styled.div`
     //images
 
     .play-img{
-        padding-left: 5em;
+        padding-left: 2em;
+        padding-top: 2em;
+        display: flex;
+        justify-content: left;
     }
 
     .stp-img{
         padding-top: 4.5em;
         width:  ${px2vw(450)};
+    }
+
+    //Play
+    .play-text{
+        margin-left: 1em;
+    }
+
+    #lands{
+        margin-bottom: 0;
     }
 
     //Characters
@@ -124,32 +136,32 @@ export const Contents = styled.div`
     .nfts-imgs{
         width: 95%;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: row;   
         align-items: center;
-        margin: 1.75em 0;
+        margin: 1.75em auto;
+        margin-bottom: 0;
 
     }
     
     .border-nft {
         display: flex;
-        justify-content: center;
+       justify-content: center;
         align-items: center;
     }
 
     .nft-central{
-        width: 70%;
+        width: 75%;
+        margin: 0 .25em;
     }
 
     .nft-side{
-        width: 60%;
-        margin-top:  ${px2vw(-50)}; 
+        width: 65%;
+        margin-top:  ${px2vw(-70)}; 
     }
 
     .nft-outside{
-        width: 50%;
-        margin-top:  ${px2vw(-120)}; 
-
+        width: 60%;
+        margin-top:  ${px2vw(-140)}; 
     }
 
     //Roadmap

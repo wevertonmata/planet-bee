@@ -35,6 +35,23 @@ export const Container = styled.div`
         height: ${px2vw(40)};
     }
 
+    @media screen and (max-width: 767px) {
+        
+        .logoFooter img{
+            width: ${px2vw(100)};
+        }
+
+        .Discord svg{
+        width: ${px2vw(60)};
+        height: ${px2vw(60)};
+        margin-left:  ${px2vw(25)};
+        }
+
+        .Twitter svg{
+            width: ${px2vw(60)};
+            height: ${px2vw(60)};
+        }
+    }
 
 
 `;

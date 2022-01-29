@@ -30,12 +30,13 @@ const items = [
    <h2>Q1 - 2022</h2>
    <ul className="ul-roadmap">
       <li className="roadmap-item"><p>🌳 Discord and Telegram comunitty</p></li>
+      <li className="roadmap-item"><p>🌱 P2E alpha for presabe buyers</p></li>
       <li className="roadmap-item"><p>🌳 Twitter account</p></li>
       <li className="roadmap-item"><p>🌳 Website</p></li>
       <li className="roadmap-item"><p>🌳 Whitepaper</p></li>
       <li className="roadmap-item"><p>🌳 Marketing</p></li>
       <li className="roadmap-item"><p>🌱 Pre sale</p></li>
-      <li className="roadmap-item"><p>🌱 P2E alpha for presabe buyers</p></li>
+      
    </ul>
    </div>,
    <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
@@ -201,7 +202,7 @@ const home: React.FC = () => {
       <section id="roadmap">
          <h1>ROADMAP</h1>
          <div className="area roadmap-area">
-            <AliceCarousel mouseTracking items={items} responsive={responsive} controlsStrategy="default,alternative" disableButtonsControls />
+            <AliceCarousel innerWidth={2} mouseTracking items={items} responsive={responsive} controlsStrategy="default,alternative" disableButtonsControls />
          </div>
       </section>
       <hr/> 
@@ -221,7 +222,6 @@ const home: React.FC = () => {
             <p>- Coming Soon -</p>
          </div>
       </section>
-      <hr/>
 
       <Footer/>
       </Contents>   

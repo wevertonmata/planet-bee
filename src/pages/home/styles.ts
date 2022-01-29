@@ -180,7 +180,7 @@ export const Contents = styled.div`
 
     h2{
         color: #fff;
-        align-self: center;
+        //align-self: center;
         border-bottom: 0.1em solid #ffde00;
         border-radius: 0.1em;
     }
@@ -200,6 +200,9 @@ export const Contents = styled.div`
         padding-bottom: 0.01em;
     }
 
+    .alice-carousel{
+ 
+    }
 
     //Tokenomics
 
@@ -242,17 +245,31 @@ export const Contents = styled.div`
 
     @media screen and (max-width: 767px) {
         .column-text-roadmap{
-            float: none;
+            display: flex;
             flex-direction: column;
+            width: 80%;
             justify-content: center;
             align-items: center;
-            padding-bottom: ${px2vw(20)};
         }
 
-        .roadmap-area{
-            padding-bottom: ${px2vw(32)};
+        .ul-roadmap{
+            color: #fff;
+            padding-top: 1.5em;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items: center;
+            margin-bottom: 0.5em;
+        }
+
+        .column-text-roadmap{
+            margin-left: 6em;
         }
         
+        h2 {
+            margin-left: 2em;
+        }
     }
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {

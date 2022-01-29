@@ -191,6 +191,7 @@ export const Contents = styled.div`
         padding-top: 1em;
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
         
     }
 
@@ -244,7 +245,7 @@ export const Contents = styled.div`
         margin-bottom: 0;
     }
 
-    @media screen and (max-width: 767px) {
+    /* @media screen and (max-width: 767px) {
         .column-text-roadmap{
             display: flex;
             flex-direction: column;
@@ -271,7 +272,7 @@ export const Contents = styled.div`
         h2 {
             margin-left: 2em;
         }
-    }
+    } */
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
 

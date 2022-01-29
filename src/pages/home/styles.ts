@@ -166,6 +166,10 @@ export const Contents = styled.div`
         align-items: flex-start;
     } 
 
+    .lands-text{
+        padding-top: 3em;
+    }
+
     //Roadmap
 
     #roadmap{
@@ -246,7 +250,7 @@ export const Contents = styled.div`
         align-items: center;
         color: #fff;
         padding-top: 0.5em;
-        border: 2px solid #fff;
+        border: 1.5px solid #fff;
         border-radius: 0.5em;
     }
 

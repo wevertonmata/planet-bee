@@ -60,7 +60,7 @@ export const Container = styled.div`
         background-color: #ffde00;
         border: solid  0.5em #ffde00;;
         border-radius:   0.3em;
-        height:  ${px2vw(55)};
+        height:  ${px2vw(48)};
         //box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     }
 
@@ -77,17 +77,17 @@ export const Container = styled.div`
     @media screen and (max-width: 767px) {
 
         nav {
-            height: ${px2vw(120)};
-            font-size:  ${px2vw(32)};   
+            height: ${px2vw(110)};
+            font-size:  ${px2vw(28)};   
         }
 
         .play{
             font-size:  ${px2vw(38)};
-            height:  ${px2vw(65)};
+            height:  ${px2vw(60)};
         }
 
         img{
-        width: ${px2vw(90)};
+        width: ${px2vw(85)};
     }
 
     }

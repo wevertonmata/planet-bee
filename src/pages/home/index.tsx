@@ -80,6 +80,7 @@ const home: React.FC = () => {
       <Header/>
      
       <Contents>  
+      <span id='topo'></span>
       <img className="bg" src={bg} alt="Planet bee background"/>
       <div className="logo">
          <img src={logo} alt="Planet bee logo"/>

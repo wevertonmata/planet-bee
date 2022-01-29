@@ -11,7 +11,7 @@ export default function  card(): JSX.Element {
       <Container> 
             
             <div className="logoFooter">
-                  <img src={logo} alt="Planet bee logo"/>
+            <a href="/#topo" className='logo-a'><img src={logo} alt="Planet bee logo"/></a>
             </div>
             <div className="social">
                <a href="https://twitter.com/PlanetBeeClub?s=20" target="_blank" className="Twitter">

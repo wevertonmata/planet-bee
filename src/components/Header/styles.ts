@@ -76,7 +76,19 @@ export const Container = styled.div`
 
     @media screen and (max-width: 767px) {
 
+        nav {
+            height: ${px2vw(120)};
+            font-size:  ${px2vw(32)};   
+        }
 
+        .play{
+            font-size:  ${px2vw(38)};
+            height:  ${px2vw(65)};
+        }
+
+        img{
+        width: ${px2vw(90)};
+    }
 
     }
 `;

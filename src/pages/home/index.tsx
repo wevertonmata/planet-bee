@@ -188,7 +188,7 @@ const home: React.FC = () => {
          </ul>
          <div className='contract'>
             <h3>SMART CONTRACT</h3>
-            <p>- Coming Soon -</p>
+            <p>----- Coming Soon -----</p>
          </div>
       </section>
 

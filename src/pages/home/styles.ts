@@ -234,7 +234,7 @@ export const Contents = styled.div`
 
 
     .contract{
-        width: 30%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -307,6 +307,9 @@ export const Contents = styled.div`
             width: 90%;
         }
 
+        .contract p{
+            font-size: ${px2vw(32)};
+        }
     }
 
 

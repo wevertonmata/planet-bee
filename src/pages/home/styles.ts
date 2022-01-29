@@ -180,9 +180,10 @@ export const Contents = styled.div`
 
     h2{
         color: #fff;
-        //align-self: center;
+        align-self: center;
         border-bottom: 0.1em solid #ffde00;
         border-radius: 0.1em;
+    
     }
     
     .ul-roadmap {

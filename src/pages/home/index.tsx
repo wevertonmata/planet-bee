@@ -202,7 +202,7 @@ const home: React.FC = () => {
       <section id="roadmap">
          <h1>ROADMAP</h1>
          <div className="area roadmap-area">
-            <AliceCarousel innerWidth={2} mouseTracking items={items} responsive={responsive} controlsStrategy="default,alternative" disableButtonsControls />
+            <AliceCarousel  mouseTracking items={items} responsive={responsive} controlsStrategy="default,alternative" disableButtonsControls />
          </div>
       </section>
       <hr/> 

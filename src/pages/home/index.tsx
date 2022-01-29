@@ -30,12 +30,12 @@ const items = [
    <h2>Q1 - 2022</h2>
    <ul className="ul-roadmap">
       <li className="roadmap-item"><p>🌳 Discord and Telegram comunitty</p></li>
-      <li className="roadmap-item"><p>🌱 P2E alpha for presabe buyers</p></li>
       <li className="roadmap-item"><p>🌳 Twitter account</p></li>
       <li className="roadmap-item"><p>🌳 Website</p></li>
       <li className="roadmap-item"><p>🌳 Whitepaper</p></li>
       <li className="roadmap-item"><p>🌳 Marketing</p></li>
       <li className="roadmap-item"><p>🌱 Pre sale</p></li>
+      <li className="roadmap-item"><p>🌱 P2E alpha for presale</p></li>
       
    </ul>
    </div>,
@@ -183,7 +183,7 @@ const home: React.FC = () => {
 
       <section id="lands">
          <div className="area">  
-            <div className="column-text">
+            <div className="column-text lands-text">
              <h1>LANDS</h1>
              <p>
                Get your own land from our in-game 

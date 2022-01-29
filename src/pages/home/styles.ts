@@ -189,9 +189,10 @@ export const Contents = styled.div`
     .ul-roadmap {
         color: #fff;
         padding-top: 1em;
+        padding-left: 4em;
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+        //margin: 0 auto;
         
     }
 
@@ -202,9 +203,6 @@ export const Contents = styled.div`
         padding-bottom: 0.01em;
     }
 
-    .alice-carousel{
- 
-    }
 
     //Tokenomics
 
@@ -226,6 +224,7 @@ export const Contents = styled.div`
         padding: 2em;
         color: #fff;
         font-weight: 700;
+        margin-left: 2em;
     }
 
 
@@ -245,8 +244,59 @@ export const Contents = styled.div`
         margin-bottom: 0;
     }
 
-    /* @media screen and (max-width: 767px) {
-        .column-text-roadmap{
+    @media screen and (max-width: 767px) {
+        
+        h1{
+            font-size: ${px2vw(75)};
+            padding-top: 0.5em;
+        }
+
+        h2{
+            font-size: ${px2vw(55)};
+        }
+
+        h3{
+            font-size: ${px2vw(32)};
+        }
+
+        p{
+            font-size: ${px2vw(38)};
+        }
+
+        .roadmap-item p{
+            font-size: ${px2vw(38)};
+            padding-bottom: 0.25em;
+        }
+
+        .play-text{
+            float: left;
+            width: 55%;
+            margin: 0 auto;
+            margin-left: ${px2vw(100)};
+        }
+
+        .save-text{
+            width: 60%;
+            margin-right: ${px2vw(100)};
+        }
+
+        .lands-text{
+            width: 55%;
+            margin-left: ${px2vw(100)};
+        }
+
+        .rule-img {
+            width:  ${px2vw(475)};
+            padding-top: 5em;
+        }
+
+        section{
+            width: 100%;
+        }
+
+    }
+
+    /* .column-text-roadmap{
             display: flex;
             flex-direction: column;
             width: 80%;
@@ -271,13 +321,9 @@ export const Contents = styled.div`
         
         h2 {
             margin-left: 2em;
-        }
-    } */
+        } */
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
-
-       
-
     }
 
 `;

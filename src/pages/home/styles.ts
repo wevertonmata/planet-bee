@@ -163,6 +163,7 @@ export const Contents = styled.div`
 
     .lands-img{
         width: 55%;
+        align-items: flex-start;
     } 
 
     //Roadmap
@@ -208,6 +209,10 @@ export const Contents = styled.div`
         padding-bottom: 0.01em;
     }
 
+    .land-area{
+        align-items: flex-start;
+    }
+
 
     //Tokenomics
 
@@ -250,14 +255,10 @@ export const Contents = styled.div`
     }
 
     @media screen and (max-width: 767px) {
-        
-        .inutil{
-            display: none;
-        }
 
         h1{
             font-size: ${px2vw(75)};
-            padding-top: 0.5em;
+            //padding-top: 0.5em;
         }
 
         h2{
@@ -292,11 +293,16 @@ export const Contents = styled.div`
         .lands-text{
             width: 55%;
             margin-left: ${px2vw(100)};
+            padding-top: 5em;
         }
 
         .rule-img {
             width:  ${px2vw(500)};
             padding-top: 5em;
+        }
+
+        .lands-img{
+            padding-top: 0;
         }
 
         section{

@@ -151,7 +151,7 @@ const home: React.FC = () => {
       <hr className="endHR"/> 
 
       <section id="lands">
-         <div className="area">  
+         <div className="area land-area">  
             <div className="column-text lands-text">
              <h1>LANDS</h1>
              <p>
@@ -161,7 +161,7 @@ const home: React.FC = () => {
                work productivity and PEE gains. 
              </p>
             </div>
-            <div className="column-img">
+            <div className="column-img lands-img-div">
              <img className='rule-img lands-img' src={lands} alt="Planet bee logo"/>
             </div>
          </div>

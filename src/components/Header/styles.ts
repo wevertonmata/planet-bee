@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import px2vw from "../../utils/px2vw";
 
 export const Container = styled.div`
-    background-color: #1e0042;
+    background-color: rgba(30,0,66,0.75);
+    position: fixed;
+    width: 100%;
 
     nav {
         display: flex;
@@ -10,12 +12,12 @@ export const Container = styled.div`
         align-items: center;
         justify-content: space-around;
         flex-wrap: nowrap;
-        height: ${px2vw(90)};
+        height: ${px2vw(70)};
         font-size:  ${px2vw(24)};   
     }
     
     img{
-        width: ${px2vw(85)};
+        width: ${px2vw(70)};
     }
 
     .logo-a{
@@ -58,7 +60,7 @@ export const Container = styled.div`
         background-color: #ffde00;
         border: solid  0.5em #ffde00;;
         border-radius:   0.3em;
-        height:  ${px2vw(65)};
+        height:  ${px2vw(55)};
         //box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     }
 
@@ -74,7 +76,7 @@ export const Container = styled.div`
 
     @media screen and (max-width: 767px) {
 
-        
+
 
     }
 `;

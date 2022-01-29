@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           <div className='bottons-nav'>
             <a href="/#play-to-yearn" className='bottons'><h4>HOME</h4></a>
             <a href="/#characters" className='bottons'><h4>CHARACTERS</h4></a>
-            <Link to="/whitepaper" className='bottons'><h4>WHITEPAPER</h4></Link>
+            <a href="https://planetbee.gitbook.io/planetbee/" className='bottons'><h4>WHITEPAPER</h4></a>
             <a href="/#roadmap" className='bottons'><h4>ROADMAP</h4></a>
             <a href="/#tokenomic" className='bottons'><h4>TOKENS</h4></a>
           </div>

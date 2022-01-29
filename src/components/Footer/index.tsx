@@ -7,7 +7,7 @@ import logo from '../../assets/img/logof.png';
 export default function  card(): JSX.Element {
   return (
     <>
-      <hr className='endHr'/>
+      
       <Container> 
             
             <div className="logoFooter">

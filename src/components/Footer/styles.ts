@@ -11,7 +11,7 @@ export const Container = styled.div`
     width: 90%;
 
     .logoFooter img{
-        width: ${px2vw(60)};
+        width: ${px2vw(75)};
     }
 
     .social{
@@ -26,13 +26,13 @@ export const Container = styled.div`
     }
 
     .Discord svg{
-        width: ${px2vw(40)};
-        height: ${px2vw(40)};
+        width: ${px2vw(50)};
+        height: ${px2vw(50)};
         margin-left:  ${px2vw(25)};
     }
     .Twitter svg{
-        width: ${px2vw(40)};
-        height: ${px2vw(40)};
+        width: ${px2vw(50)};
+        height: ${px2vw(50)};
     }
 
     @media screen and (max-width: 767px) {

@@ -101,7 +101,7 @@ const home: React.FC = () => {
             </div>
          </div>
       </section>
-      <hr/> 
+      <hr className="endHR"/> 
 
       <section id="save-the-planet">
          
@@ -112,56 +112,43 @@ const home: React.FC = () => {
             <div className="column-text save-text">
              <h1>SAVE THE PLANET</h1>
              <p>
-               We are the first decentralized currency with a future physical backing in a beekeeping project.
+               We are one of the first decentralized currency with a future physical ballast in a beekeeping project.
                <br/><br/>
-               Bees are extremely important for 
-               our lives and for the environment, but they are dying because of 
-               the daily actions of human beings with the planet,
-               such as deforestation and pesticide abuse.
-               <br/><br/>
-               Join the cause and help reverse what we destroyed for so long. 
+               The planet is experiencing one of the most critical moments in history because of human intervention. 
+               Join us and help turn around what we've destroyed for so long.
              </p>
             </div>
          </div>
       </section>
-      <hr/> 
+      <hr className="endHR"/> 
 
       <section id="characters">
          <h1>CHARACTERS</h1>
+         <div className="nfts-imgs ">
+           
+            <img className='nft-outside' src={princess} alt="Planet bee logo"/>
+            
+            <img className='nft-side' src={gladiator} alt="Planet bee logo"/>
+   
+            <img className='nft-central' src={astronaut} alt="Planet bee logo"/>
+                
+            <img className='nft-side' src={zumbie} alt="Planet bee logo"/>
+     
+            <img className='nft-outside' src={witch} alt="Planet bee logo"/>
+           
+         </div>
          <div className="area">  
             <div className="column-text characters-text">
              <p>
-               Each NFT has a different rarity, which is defined by the bee's energy, speed and supported weight.
-               <br/> 
-               Acquire new NFTs from our in-game store or on 
-               your explorations and  grow your patrol bee fleet to help 
-               revitalize the world while increasing your PBEE earnings with FEE FREE EXPEDITIONS. 
+               Acquire NFTs from our in-game store and grow your bee army to help revitalize the world while increasing your PBEE earnings.
+               <br/>
+               Each NFT has a different rarity, which is defined by the bee's energy, speed and strength.
              </p>
             </div>
          </div>
-         <div className="nfts-imgs ">
-            <div className="border-nft nft-outside-right">
-               <img className='nft-outside' src={princess} alt="Planet bee logo"/>
-            </div>
-
-            <div className="border-nft">
-               <img className='nft-side' src={gladiator} alt="Planet bee logo"/>
-            </div>
-
-            <div className="border-nft">
-               <img className='nft-central' src={astronaut} alt="Planet bee logo"/>
-            </div>
-
-            <div className="border-nft">
-               <img className='nft-side' src={zumbie} alt="Planet bee logo"/>
-            </div>
-
-            <div className="border-nft  ">
-               <img className='nft-outside nft-outside-left' src={witch} alt="Planet bee logo"/>
-            </div>
-         </div>
+         
       </section>
-      <hr/> 
+      <hr className="endHR"/> 
 
       <section id="lands">
          <div className="area">  
@@ -175,11 +162,11 @@ const home: React.FC = () => {
              </p>
             </div>
             <div className="column-img">
-             <img className='rule-img' src={lands} alt="Planet bee logo"/>
+             <img className='rule-img lands-img' src={lands} alt="Planet bee logo"/>
             </div>
          </div>
       </section>
-      <hr/> 
+      <hr className="endHR"/> 
 
       <section id="roadmap">
          <h1>ROADMAP</h1>
@@ -187,7 +174,7 @@ const home: React.FC = () => {
             <AliceCarousel  mouseTracking items={items} responsive={responsive} controlsStrategy="default,alternative" disableButtonsControls />
          </div>
       </section>
-      <hr/> 
+      <hr className="endHR"/> 
 
       <section id="tokenomic">
          <h1>TOKENOMIC</h1>
@@ -205,6 +192,7 @@ const home: React.FC = () => {
          </div>
       </section>
 
+      <hr className='endFooter'/>
       <Footer/>
       </Contents>   
     </>

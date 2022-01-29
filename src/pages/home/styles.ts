@@ -28,11 +28,19 @@ export const Contents = styled.div`
         margin: 0 auto;
     }
 
-    hr{
+    .endHR{
         width: 98%;
         border: 0.01em solid rgba(255,255,255, 0.25);
         background-color: rgba(255,255,255, 0.25);
         margin: 3em 0;
+    }
+
+    .endFooter{
+        margin-top: 3em;
+        margin-bottom: 1em;
+        width: 98%;
+        border: 0.01em solid rgba(255,255,255, 0.25);
+        background-color: rgba(255,255,255, 0.25);
     }
 
     h1{
@@ -109,10 +117,7 @@ export const Contents = styled.div`
         justify-content: center;
     }
 
-    .stp-img{
-        padding-top: 4.5em;
-        width:  ${px2vw(450)};
-    }
+
 
 
     #lands{
@@ -122,43 +127,43 @@ export const Contents = styled.div`
     //Characters
 
     .characters-text{
-        width: 84%;
+        width: 80%;
         text-align: justify;
-        padding-bottom: 2em;
-        padding-top: 0;
-        
+        //padding-bottom: 2em;
+        padding-top: 2em;
     }
 
     .nfts-imgs{
-        width: 95%;
+        width: 85%;
         display: flex;
         flex-direction: row;   
-        align-items: center;
-        margin: 1.75em auto;
-        margin-bottom: 0;
-
+        align-items: flex-end;
+        justify-content: space-evenly;
+        padding-top: 0.5em;
     }
     
     .border-nft {
-        display: flex;
-       justify-content: center;
-        align-items: center;
+        padding: 0 auto;
     }
 
     .nft-central{
-        width: 75%;
+        width: 18%;
         margin: 0 .25em;
     }
 
     .nft-side{
-        width: 65%;
-        margin-top:  ${px2vw(-70)}; 
+        width: 15%;
+        //margin-top:  ${px2vw(70)}; 
     }
 
     .nft-outside{
-        width: 60%;
-        margin-top:  ${px2vw(-140)}; 
+        width: 13%;
+        //margin-top:  ${px2vw(140)}; 
     }
+
+    .lands-img{
+        width: 55%;
+    } 
 
     //Roadmap
 
@@ -246,6 +251,10 @@ export const Contents = styled.div`
 
     @media screen and (max-width: 767px) {
         
+        .inutil{
+            display: none;
+        }
+
         h1{
             font-size: ${px2vw(75)};
             padding-top: 0.5em;
@@ -260,7 +269,7 @@ export const Contents = styled.div`
         }
 
         p{
-            font-size: ${px2vw(38)};
+            font-size: ${px2vw(36)};
         }
 
         .roadmap-item p{

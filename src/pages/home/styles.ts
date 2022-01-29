@@ -286,7 +286,7 @@ export const Contents = styled.div`
         }
 
         .rule-img {
-            width:  ${px2vw(475)};
+            width:  ${px2vw(500)};
             padding-top: 5em;
         }
 
@@ -294,34 +294,12 @@ export const Contents = styled.div`
             width: 100%;
         }
 
+        .token-img{
+            width: 90%;
+        }
+
     }
 
-    /* .column-text-roadmap{
-            display: flex;
-            flex-direction: column;
-            width: 80%;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .ul-roadmap{
-            color: #fff;
-            padding-top: 1.5em;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content:center;
-            align-items: center;
-            margin-bottom: 0.5em;
-        }
-
-        .column-text-roadmap{
-            margin-left: 6em;
-        }
-        
-        h2 {
-            margin-left: 2em;
-        } */
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
     }

@@ -35,13 +35,12 @@ const items = [
       <li className="roadmap-item"><p>🌳 Whitepaper</p></li>
       <li className="roadmap-item"><p>🌳 Marketing</p></li>
       <li className="roadmap-item"><p>🌱 Pre sale</p></li>
-      <li className="roadmap-item"><p>🌱 P2E alpha for presale</p></li>
-      
    </ul>
    </div>,
    <div className="column-text column-text-roadmap" onDragStart={handleDragStart} role="presentation">
       <h2>Q2 - 2022</h2>
       <ul className="ul-roadmap">
+         <li className="roadmap-item"><p>🌱 P2E alpha for presale</p></li>
          <li className="roadmap-item"><p>🌱 Game bug fix</p></li>
          <li className="roadmap-item"><p>🌱 PBEE token launch</p></li>
          <li className="roadmap-item"><p>🌱 Official Version of P2E Game</p></li>

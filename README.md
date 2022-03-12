@@ -1,3 +1,3 @@
-## UI Clone
+## Project Planet bee
 
-Clone do antigo site da Typeform com intuito de utilizar a biblioteca Framer Motion
+[Planet Bee Site](https://app.planetbee.club) 

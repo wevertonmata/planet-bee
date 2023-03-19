@@ -1,3 +1,3 @@
 ## Project Planet bee
 
-[Planet Bee Site](https://app.planetbee.club) 
+[Planet Bee Site](https://planetbee.netlify.app/) 
